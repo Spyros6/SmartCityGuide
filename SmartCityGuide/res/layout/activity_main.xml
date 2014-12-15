@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.smartcityguide.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/city" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="Welcome to the SmartCityGuide"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnCinemas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnFuel"
+        android:layout_alignRight="@+id/btnDoctors"
+        android:text="Cinemas" />
+
+    <Button
+        android:id="@+id/btnFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSuperMarkets"
+        android:layout_alignLeft="@+id/btnCinemas"
+        android:text="Fuel" />
+
+    <Button
+        android:id="@+id/btnFastFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAuto"
+        android:layout_below="@+id/btnCafe"
+        android:text="FastFood" />
+
+    <Button
+        android:id="@+id/btnCafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnFastFood"
+        android:layout_below="@+id/btnRestaurant"
+        android:text="Cafe" />
+
+    <Button
+        android:id="@+id/btnBakery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAuto"
+        android:layout_alignLeft="@+id/btnFuel"
+        android:text="Bakery" />
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSuperMarkets"
+        android:layout_below="@+id/btnSuperMarkets"
+        android:text="Auto Repairs" />
+
+    <Button
+        android:id="@+id/btnBanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPharmacy"
+        android:layout_alignLeft="@+id/btnDoctors"
+        android:text="Banks" />
+
+    <Button
+        android:id="@+id/btnRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnPharmacy"
+        android:layout_below="@+id/textViewOption"
+        android:layout_marginTop="20dp"
+        android:text="Restaurant" />
+
+    <Button
+        android:id="@+id/btnPharmacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAuto"
+        android:layout_below="@+id/btnAuto"
+        android:text="Pharmacy" />
+
+    <Button
+        android:id="@+id/btnDoctors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCinemas"
+        android:layout_alignRight="@+id/textViewOption"
+        android:text="Doctors" />
+
+    <TextView
+        android:id="@+id/textViewOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.87"
+        android:text="Choose an Option to Continue:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnSuperMarkets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewOption"
+        android:layout_below="@+id/btnFastFood"
+        android:layout_weight="1"
+        android:text="SuperMarkets" />
+
+    <Button
+        android:id="@+id/btnBars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPharmacy"
+        android:layout_alignBottom="@+id/btnPharmacy"
+        android:layout_alignLeft="@+id/btnBanks"
+        android:text="Bars" />
+
+</RelativeLayout>

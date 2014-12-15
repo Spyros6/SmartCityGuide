@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcityguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartcityguide"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Restaurant"
+            android:label="@string/title_activity_restaurant"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Doctors"
+            android:label="@string/title_activity_doctors"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cafe"
+            android:label="@string/title_activity_cafe"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cinemas"
+            android:label="@string/title_activity_cinemas"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FastFood"
+            android:label="@string/title_activity_fast_food"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Fuel"
+            android:label="@string/title_activity_fuel"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SuperMarkets"
+            android:label="@string/title_activity_super_markets"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Bakery"
+            android:label="@string/title_activity_bakery"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AutoRepairs"
+            android:label="@string/title_activity_auto_repairs"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Banks"
+            android:label="@string/title_activity_banks"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Pharmacy"
+            android:label="@string/title_activity_pharmacy"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Bars"
+            android:label="@string/title_activity_bars"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ArguroupolisRestaurant"
+            android:label="@string/title_activity_arguroupolis_restaurant"
+            android:parentActivityName=".Restaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Restaurant" />
+        </activity>
+        <activity
+            android:name=".HellinikoRestaurant"
+            android:label="@string/title_activity_helliniko_restaurant"
+            android:parentActivityName=".Restaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Restaurant" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisDoctors"
+            android:label="@string/title_activity_argyroupolis_doctors"
+            android:parentActivityName=".Doctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Doctors" />
+        </activity>
+        <activity
+            android:name=".HellinikoDoctors"
+            android:label="@string/title_activity_helliniko_doctors"
+            android:parentActivityName=".Doctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Doctors" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisCafe"
+            android:label="@string/title_activity_argyroupolis_cafe"
+            android:parentActivityName=".Cafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Cafe" />
+        </activity>
+        <activity
+            android:name=".HellinikoCafe"
+            android:label="@string/title_activity_helliniko_cafe"
+            android:parentActivityName=".Cafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Cafe" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisCinemas"
+            android:label="@string/title_activity_argyroupolis_cinemas"
+            android:parentActivityName="com.exapmle.smartcityguide.Cinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exapmle.smartcityguide.Cinemas" />
+        </activity>
+        <activity
+            android:name=".HellinikoCinema"
+            android:label="@string/title_activity_helliniko_cinema"
+            android:parentActivityName=".Cinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Cinemas" />
+        </activity>
+        <activity
+            android:name=".HellinikoCinemas"
+            android:label="@string/title_activity_helliniko_cinemas"
+            android:parentActivityName=".Cinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Cinemas" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisFastFood"
+            android:label="@string/title_activity_argyroupolis_fast_food"
+            android:parentActivityName=".FastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.FastFood" />
+        </activity>
+        <activity
+            android:name=".HellinikoFastFood"
+            android:label="@string/title_activity_helliniko_fast_food"
+            android:parentActivityName=".FastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.FastFood" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisFuel"
+            android:label="@string/title_activity_argyroupolis_fuel"
+            android:parentActivityName=".Fuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Fuel" />
+        </activity>
+        <activity
+            android:name=".HellinikoFuel"
+            android:label="@string/title_activity_helliniko_fuel"
+            android:parentActivityName=".Fuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Fuel" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisSuperMarkets"
+            android:label="@string/title_activity_argyroupolis_super_markets"
+            android:parentActivityName=".SuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.SuperMarkets" />
+        </activity>
+        <activity
+            android:name=".HellinikoSuperMarkets"
+            android:label="@string/title_activity_helliniko_super_markets"
+            android:parentActivityName=".SuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.SuperMarkets" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisBakery"
+            android:label="@string/title_activity_argyroupolis_bakery"
+            android:parentActivityName=".Bakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Bakery" />
+        </activity>
+        <activity
+            android:name=".HellinikoBakery"
+            android:label="@string/title_activity_helliniko_bakery"
+            android:parentActivityName=".Bakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Bakery" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisAutoRepairs"
+            android:label="@string/title_activity_argyroupolis_auto_repairs"
+            android:parentActivityName=".AutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.AutoRepairs" />
+        </activity>
+        <activity
+            android:name=".HellinikoAutoRepairs"
+            android:label="@string/title_activity_helliniko_auto_repairs"
+            android:parentActivityName=".AutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.AutoRepairs" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisBanks"
+            android:label="@string/title_activity_argyroupolis_banks"
+            android:parentActivityName=".Banks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Banks" />
+        </activity>
+        <activity
+            android:name=".HellinikoBanks"
+            android:label="@string/title_activity_helliniko_banks"
+            android:parentActivityName=".Banks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Banks" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisPharmacy"
+            android:label="@string/title_activity_argyroupolis_pharmacy"
+            android:parentActivityName=".Pharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Pharmacy" />
+        </activity>
+        <activity
+            android:name=".HellinikoPharmacy"
+            android:label="@string/title_activity_helliniko_pharmacy"
+            android:parentActivityName=".Pharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Pharmacy" />
+        </activity>
+        <activity
+            android:name=".ArgyroupolisBars"
+            android:label="@string/title_activity_argyroupolis_bars"
+            android:parentActivityName=".Bars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Bars" />
+        </activity>
+        <activity
+            android:name=".HellinikoBars"
+            android:label="@string/title_activity_helliniko_bars"
+            android:parentActivityName=".Bars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Bars" />
+        </activity>
+        <activity
+            android:name=".SklavenitisHelliniko"
+            android:label="@string/title_activity_sklavenitis_helliniko"
+            android:parentActivityName=".HellinikoSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".BasilopoulosHelliniko"
+            android:label="@string/title_activity_basilopoulos_helliniko"
+            android:parentActivityName=".HellinikoSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".CarrefourMarinopoulosHelliniko"
+            android:label="@string/title_activity_carrefour_marinopoulos_helliniko"
+            android:parentActivityName=".HellinikoSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".OKanytimemarketsHelliniko"
+            android:label="@string/title_activity_okanytimemarkets_helliniko"
+            android:parentActivityName=".HellinikoSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".CarrefourArgyroupolis"
+            android:label="@string/title_activity_carrefour_argyroupolis"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".CarrefourMarinopoulosArgyroupolis"
+            android:label="@string/title_activity_carrefour_marinopoulos_argyroupolis"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".BasilopoulosArgyroupolis"
+            android:label="@string/title_activity_basilopoulos_argyroupolis"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".GalaxiasArgyroupolis"
+            android:label="@string/title_activity_galaxias_argyroupolis"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".VidalisMarket"
+            android:label="@string/title_activity_vidalis_market"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".SklavenitisArgyroupolis"
+            android:label="@string/title_activity_sklavenitis_argyroupolis"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".OKanytimemarkets"
+            android:label="@string/title_activity_okanytimemarkets"
+            android:parentActivityName=".ArgyroupolisSuperMarkets" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisSuperMarkets" />
+        </activity>
+        <activity
+            android:name=".TaLitharitsia"
+            android:label="@string/title_activity_ta_litharitsia"
+            android:parentActivityName=".HellinikoRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoRestaurant" />
+        </activity>
+        <activity
+            android:name=".Krasadiko"
+            android:label="@string/title_activity_krasadiko"
+            android:parentActivityName=".HellinikoRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoRestaurant" />
+        </activity>
+        <activity
+            android:name=".OdosAristotelous"
+            android:label="@string/title_activity_odos_aristotelous"
+            android:parentActivityName=".Hellinikorestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.Hellinikorestaurant" />
+        </activity>
+        <activity
+            android:name=".Ndrangheta"
+            android:label="@string/title_activity_ndrangheta"
+            android:parentActivityName=".HellinikoRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoRestaurant" />
+        </activity>
+        <activity
+            android:name=".Sousami"
+            android:label="@string/title_activity_sousami"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".OmorfiGwnia"
+            android:label="@string/title_activity_omorfi_gwnia"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".Elia"
+            android:label="@string/title_activity_elia"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".AlarginoRakadiko"
+            android:label="@string/title_activity_alargino_rakadiko"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".LaPasteria"
+            android:label="@string/title_activity_la_pasteria"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".TreisToLadi"
+            android:label="@string/title_activity_treis_to_ladi"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".Postali"
+            android:label="@string/title_activity_postali"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".ToMpiftekiThsSofias"
+            android:label="@string/title_activity_to_mpifteki_ths_sofias"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".KouzinaThsPlateias"
+            android:label="@string/title_activity_kouzina_ths_plateias"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".PaletaGeusewn"
+            android:label="@string/title_activity_paleta_geusewn"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".TavernaSpyros"
+            android:label="@string/title_activity_taverna_spyros"
+            android:parentActivityName=".ArgyroupolisRestaurant" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
+        </activity>
+        <activity
+            android:name=".ICafeBar"
+            android:label="@string/title_activity_icafe_bar"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".EternoCafeBar"
+            android:label="@string/title_activity_eterno_cafe_bar"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".Inverso"
+            android:label="@string/title_activity_inverso"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".BesitoCafe"
+            android:label="@string/title_activity_besito_cafe"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".HugCafe"
+            android:label="@string/title_activity_hug_cafe"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".AntithesisCafe"
+            android:label="@string/title_activity_antithesis_cafe"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".SiempreCafe"
+            android:label="@string/title_activity_siempre_cafe"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".AllPiccolo"
+            android:label="@string/title_activity_all_piccolo"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".CoffeeIsland"
+            android:label="@string/title_activity_coffee_island"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".VintageCafeBar"
+            android:label="@string/title_activity_vintage_cafe_bar"
+            android:parentActivityName=".ArgyroupolisCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
+        </activity>
+        <activity
+            android:name=".QuizCafe"
+            android:label="@string/title_activity_quiz_cafe"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".TerminalCafe"
+            android:label="@string/title_activity_terminal_cafe"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".CoffeeIslandHelliniko"
+            android:label="@string/title_activity_coffee_island_helliniko"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".WhispersCafe"
+            android:label="@string/title_activity_whispers_cafe"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".Sorhdon"
+            android:label="@string/title_activity_sorhdon"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".Dodwnh"
+            android:label="@string/title_activity_dodwnh"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".ReplayCafeBistro"
+            android:label="@string/title_activity_replay_cafe_bistro"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".DailysCafe"
+            android:label="@string/title_activity_dailys_cafe"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".SisCafe"
+            android:label="@string/title_activity_sis_cafe"
+            android:parentActivityName=".HellinikoCafe" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCafe" />
+        </activity>
+        <activity
+            android:name=".CineAloma"
+            android:label="@string/title_activity_cine_aloma"
+            android:parentActivityName=".ArgyroupolisCinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCinemas" />
+        </activity>
+        <activity
+            android:name=".CineArgyroupolis"
+            android:label="@string/title_activity_cine_argyroupolis"
+            android:parentActivityName=".ArgyroupolisCinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCinemas" />
+        </activity>
+        <activity
+            android:name=".CineSofia"
+            android:label="@string/title_activity_cine_sofia"
+            android:parentActivityName=".ArgyroupolisCinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisCinemas" />
+        </activity>
+        <activity
+            android:name=".StashKalamaki"
+            android:label="@string/title_activity_stash_kalamaki"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".ThurioSouvlakiBar"
+            android:label="@string/title_activity_thurio_souvlaki_bar"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".LefterisArgyroupolis"
+            android:label="@string/title_activity_lefteris_argyroupolis"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".Mpaltas"
+            android:label="@string/title_activity_mpaltas"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".PitesTouNtenh"
+            android:label="@string/title_activity_pites_tou_ntenh" >
+        </activity>
+        <activity
+            android:name=".Nostimies"
+            android:label="@string/title_activity_nostimies"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".GiaSouvlaki"
+            android:label="@string/title_activity_gia_souvlaki"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".GoodysArgyroupolis"
+            android:label="@string/title_activity_goodys_argyroupolis"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".EverestArgyroupolis"
+            android:label="@string/title_activity_everest_argyroupolis"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".YammiYammi"
+            android:label="@string/title_activity_yammi_yammi"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".VegasBurger"
+            android:label="@string/title_activity_vegas_burger"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".Twenty11"
+            android:label="@string/title_activity_twenty11"
+            android:parentActivityName=".ArgyroupolisFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
+        </activity>
+        <activity
+            android:name=".PitesThsGewrgias"
+            android:label="@string/title_activity_pites_ths_gewrgias" >
+        </activity>
+        <activity
+            android:name=".ToElliniko"
+            android:label="@string/title_activity_to_elliniko"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".ToSouvlatzidiko"
+            android:label="@string/title_activity_to_souvlatzidiko"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".SchoolSouvlaki"
+            android:label="@string/title_activity_school_souvlaki"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".SpitikoSpyros"
+            android:label="@string/title_activity_spitiko_spyros"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".TamamKempap"
+            android:label="@string/title_activity_tamam_kempap"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".ToXryso"
+            android:label="@string/title_activity_to_xryso"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".JohnieHotDog"
+            android:label="@string/title_activity_johnie_hot_dog"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".Frantzolino"
+            android:label="@string/title_activity_frantzolino"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".ToGeumataki"
+            android:label="@string/title_activity_to_geumataki"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".EverestHelliniko"
+            android:label="@string/title_activity_everest_helliniko"
+            android:parentActivityName=".HellinikoFastFood" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFastFood" />
+        </activity>
+        <activity
+            android:name=".Elin"
+            android:label="@string/title_activity_elin"
+            android:parentActivityName=".ArgyroupolisFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFuel" />
+        </activity>
+        <activity
+            android:name=".BestOil"
+            android:label="@string/title_activity_best_oil"
+            android:parentActivityName=".ArgyroupolisFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFuel" />
+        </activity>
+        <activity
+            android:name=".RevoilArgyroupolis"
+            android:label="@string/title_activity_revoil_argyroupolis"
+            android:parentActivityName=".ArgyroupolisFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFuel" />
+        </activity>
+        <activity
+            android:name=".Shell"
+            android:label="@string/title_activity_shell"
+            android:parentActivityName=".ArgyroupolisFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFuel" />
+        </activity>
+        <activity
+            android:name=".EKO"
+            android:label="@string/title_activity_eko"
+            android:parentActivityName=".ArgyroupolisFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisFuel" />
+        </activity>
+        <activity
+            android:name=".RevoilHelliniko"
+            android:label="@string/title_activity_revoil_helliniko"
+            android:parentActivityName=".HellinikoFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFuel" />
+        </activity>
+        <activity
+            android:name=".EtekaHelliniko"
+            android:label="@string/title_activity_eteka_helliniko"
+            android:parentActivityName=".HellinikoFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFuel" />
+        </activity>
+        <activity
+            android:name=".InvictusGas"
+            android:label="@string/title_activity_invictus_gas"
+            android:parentActivityName=".HellinikoFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFuel" />
+        </activity>
+        <activity
+            android:name=".BPHelliniko"
+            android:label="@string/title_activity_bphelliniko"
+            android:parentActivityName=".HellinikoFuel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoFuel" />
+        </activity>
+        <activity
+            android:name=".AlphaBankArgyroupolis"
+            android:label="@string/title_activity_alpha_bank_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".AlphaBankArgyroupolis2"
+            android:label="@string/title_activity_alpha_bank_argyroupolis2"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".EurobankArgyroupolis"
+            android:label="@string/title_activity_eurobank_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".EurobankArgyroupolis2"
+            android:label="@string/title_activity_eurobank_argyroupolis2"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".EthnikiTrapezaArgyroupolis"
+            android:label="@string/title_activity_ethniki_trapeza_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".TrapezaPeiraiwsArgyroupolis"
+            android:label="@string/title_activity_trapeza_peiraiws_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".TrapezaPeiraiwsArgyroupolis2"
+            android:label="@string/title_activity_trapeza_peiraiws_argyroupolis2"
+            android:parentActivityName=".ArgyroupolisBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
+        </activity>
+        <activity
+            android:name=".AlphaBankHelliniko"
+            android:label="@string/title_activity_alpha_bank_helliniko"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".EurobankHelliniko"
+            android:label="@string/title_activity_eurobank_helliniko"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".EthnikiTrapezaHelliniko"
+            android:label="@string/title_activity_ethniki_trapeza_helliniko"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".TrapezaPeiraiwsHelliniko"
+            android:label="@string/title_activity_trapeza_peiraiws_helliniko"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".TrapezaPeiraiwsHelliniko2"
+            android:label="@string/title_activity_trapeza_peiraiws_helliniko2"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".TaxydromikoTamieuthrio"
+            android:label="@string/title_activity_taxydromiko_tamieuthrio"
+            android:parentActivityName=".HellinikoBanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBanks" />
+        </activity>
+        <activity
+            android:name=".KatsioulhsAnastasios"
+            android:label="@string/title_activity_katsioulhs_anastasios"
+            android:parentActivityName=".HellinikoBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBakery" />
+        </activity>
+        <activity
+            android:name=".TaGiannena"
+            android:label="@string/title_activity_ta_giannena"
+            android:parentActivityName=".HellinikoBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBakery" />
+        </activity>
+        <activity
+            android:name=".EllhnikoBakery"
+            android:label="@string/title_activity_ellhniko_bakery"
+            android:parentActivityName=".HellinikoBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBakery" />
+        </activity>
+        <activity
+            android:name=".GiourasBakery"
+            android:label="@string/title_activity_giouras_bakery"
+            android:parentActivityName=".HellinikoBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBakery" />
+        </activity>
+        <activity
+            android:name=".SofoulisBakery"
+            android:label="@string/title_activity_sofoulis_bakery"
+            android:parentActivityName=".HellinikoBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoBakery" />
+        </activity>
+        <activity
+            android:name=".XaraArgyroupolis"
+            android:label="@string/title_activity_xara_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".KatsioulhsArgyroupolis"
+            android:label="@string/title_activity_katsioulhs_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".SothriadouArgyroupolis"
+            android:label="@string/title_activity_sothriadou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".ZymotoArgyroupolis"
+            android:label="@string/title_activity_zymoto_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".GkrousthsArgyroupolis"
+            android:label="@string/title_activity_gkrousths_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".BenethArgyroupolis"
+            android:label="@string/title_activity_beneth_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".MyrtakiArgyroupolis"
+            android:label="@string/title_activity_myrtaki_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".MargaritisArgyroupolis"
+            android:label="@string/title_activity_margaritis_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".RenierisArgyroupolis"
+            android:label="@string/title_activity_renieris_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBakery" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
+        </activity>
+        <activity
+            android:name=".AutoServiceArgyroupolis"
+            android:label="@string/title_activity_auto_service_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".NalpadisArgyroupolis"
+            android:label="@string/title_activity_nalpadis_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".PowerTeamArgyroupolis"
+            android:label="@string/title_activity_power_team_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".MylonasArgyroupolis"
+            android:label="@string/title_activity_mylonas_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".JeepServiceArgyroupolis"
+            android:label="@string/title_activity_jeep_service_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".CarTechnologyArgyroupolis"
+            android:label="@string/title_activity_car_technology_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".KastritsisServiceArgyroupolis"
+            android:label="@string/title_activity_kastritsis_service_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".LiotsosServiceArgyroupolis"
+            android:label="@string/title_activity_liotsos_service_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".VarellasServiceArgyroupolis"
+            android:label="@string/title_activity_varellas_service_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".KMServiceArgyroupolis"
+            android:label="@string/title_activity_kmservice_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".ProSportRacingArgyroupolis"
+            android:label="@string/title_activity_pro_sport_racing_argyroupolis"
+            android:parentActivityName=".ArgyroupolisAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".ServiceTechHelliniko"
+            android:label="@string/title_activity_service_tech_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".RomanosPowerHelliniko"
+            android:label="@string/title_activity_romanos_power_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".ServiziItalianiHelliniko"
+            android:label="@string/title_activity_servizi_italiani_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".NtinouHelliniko"
+            android:label="@string/title_activity_ntinou_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".LampropoulosHelliniko"
+            android:label="@string/title_activity_lampropoulos_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".PalaiopanhsHelliniko"
+            android:label="@string/title_activity_palaiopanhs_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".KisandrakisHelliniko"
+            android:label="@string/title_activity_kisandrakis_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".KarakyrgiakosHelliniko"
+            android:label="@string/title_activity_karakyrgiakos_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".DakarServiceHelliniko"
+            android:label="@string/title_activity_dakar_service_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".GSMServiceHelliniko"
+            android:label="@string/title_activity_gsmservice_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".RacingServiceHelliniko"
+            android:label="@string/title_activity_racing_service_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".SyrigosHelliniko"
+            android:label="@string/title_activity_syrigos_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".MauropoulosHelliniko"
+            android:label="@string/title_activity_mauropoulos_helliniko"
+            android:parentActivityName=".HellinikoAutoRepairs" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
+        </activity>
+        <activity
+            android:name=".AthiniotouArgyroupolis"
+            android:label="@string/title_activity_athiniotou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".AleksandridiArgyroupolis"
+            android:label="@string/title_activity_aleksandridi_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".AfendraArgyroupolis"
+            android:label="@string/title_activity_afendra_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".GeorgiadouArgyroupolis"
+            android:label="@string/title_activity_georgiadou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".KalepesiArgyroupolis"
+            android:label="@string/title_activity_kalepesi_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".PapadakiArgyroupolis"
+            android:label="@string/title_activity_papadaki_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".TsonouArgyroupolis"
+            android:label="@string/title_activity_tsonou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
+        </activity>
+        <activity
+            android:name=".AsikisHelliniko"
+            android:label="@string/title_activity_asikis_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".DouzeniHelliniko"
+            android:label="@string/title_activity_douzeni_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".KaravasileiadiHelliniko"
+            android:label="@string/title_activity_karavasileiadi_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".KimioniHelliniko"
+            android:label="@string/title_activity_kimioni_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".SpiliotopoulouHelliniko"
+            android:label="@string/title_activity_spiliotopoulou_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".SpuropoulosHelliniko"
+            android:label="@string/title_activity_spuropoulos_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".SaporitaHelliniko"
+            android:label="@string/title_activity_saporita_helliniko"
+            android:parentActivityName=".HellinikoPharmacy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoPharmacy" />
+        </activity>
+        <activity
+            android:name=".ErotimatikoArgyroupolis"
+            android:label="@string/title_activity_erotimatiko_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBars" />
+        </activity>
+        <activity
+            android:name=".MparallouArgyroupolis"
+            android:label="@string/title_activity_mparallou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBars" />
+        </activity>
+        <activity
+            android:name=".BarrelHausArgyroupolis"
+            android:label="@string/title_activity_barrel_haus_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBars" />
+        </activity>
+        <activity
+            android:name=".ValeValeArgyroupolis"
+            android:label="@string/title_activity_vale_vale_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBars" />
+        </activity>
+        <activity
+            android:name=".FabricaArgyroupolis"
+            android:label="@string/title_activity_fabrica_argyroupolis"
+            android:parentActivityName=".ArgyroupolisBars" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisBars" />
+        </activity>
+        <activity
+            android:name=".VideoBlueHelliniko"
+            android:label="@string/title_activity_video_blue_helliniko" 
+            android:parentActivityName=".HellinikoCinemas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoCinemas" />
+        </activity>
+    </application>
+
+</manifest>
