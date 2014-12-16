@@ -2,6 +2,7 @@ package com.example.smartcityguide;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,7 +14,11 @@ import android.widget.Toast;
 
 public class HellinikoDoctors extends ListActivity {
 
-	String arr[] = {"AAA", "BBB" ,"CCC" , "DDD" , "EEE" , "FFF" ,"GGG","HHH","III"};
+	String arr[] = {"Maurokefalos Gerasimos", 
+			"Paximadakis Emmanouhl" ,
+			"Aslanidis Dimitrios" ,
+			"Karidi Eirini" ,
+			"Iliopoulos Themistiklis"};
 	ListView l;
 	
 	@Override
@@ -27,8 +32,30 @@ public class HellinikoDoctors extends ListActivity {
 
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
-		TextView temp= (TextView) v;
-		Toast.makeText(this,""+temp.getText(),Toast.LENGTH_SHORT).show();
+		// TODO Auto-generated method stub
+	     super.onListItemClick(l, v, position, id);
+
+	     if (position == 0) {
+	    		Intent intent = new Intent(this, MaurokefalosHelliniko.class);
+	    		startActivity(intent);
+	    		}
+	     if (position == 1) {
+	    		Intent intent = new Intent(this, PaximadakisHelliniko.class);
+	    		startActivity(intent);
+	    		}
+	     if (position == 2) {
+	    		Intent intent = new Intent(this, AslanidisHelliniko.class);
+	    		startActivity(intent);
+	    		}
+	     if (position == 3) {
+	    		Intent intent = new Intent(this, KaridiHelliniko.class);
+	    		startActivity(intent);
+	    		}
+	     if (position == 4) {
+	    		Intent intent = new Intent(this, IliopoulosHelliniko.class);
+	    		startActivity(intent);
+	    		}
+	    
 	}
 	
 	@Override

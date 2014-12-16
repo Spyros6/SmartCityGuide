@@ -1516,11 +1516,99 @@
         </activity>
         <activity
             android:name=".VideoBlueHelliniko"
-            android:label="@string/title_activity_video_blue_helliniko" 
+            android:label="@string/title_activity_video_blue_helliniko"
             android:parentActivityName=".HellinikoCinemas" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoCinemas" />
+        </activity>
+        <activity
+            android:name=".TziallasArgyroupolis"
+            android:label="@string/title_activity_tziallas_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".RiganatosArgyroupolis"
+            android:label="@string/title_activity_riganatos_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".AlikakouArgyroupolis"
+            android:label="@string/title_activity_alikakou_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".ProvatasArgyroupolis"
+            android:label="@string/title_activity_provatas_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".KavvadasArgyroupolis"
+            android:label="@string/title_activity_kavvadas_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".GerolimosArgyroupolis"
+            android:label="@string/title_activity_gerolimos_argyroupolis"
+            android:parentActivityName=".ArgyroupolisDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.ArgyroupolisDoctors" />
+        </activity>
+        <activity
+            android:name=".MaurokefalosHelliniko"
+            android:label="@string/title_activity_maurokefalos_helliniko"
+            android:parentActivityName=".HellinikoDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoDoctors" />
+        </activity>
+        <activity
+            android:name=".PaximadakisHelliniko"
+            android:label="@string/title_activity_paximadakis_helliniko"
+            android:parentActivityName=".HellinikoDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoDoctors" />
+        </activity>
+        <activity
+            android:name=".AslanidisHelliniko"
+            android:label="@string/title_activity_aslanidis_helliniko"
+            android:parentActivityName=".HellinikoDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoDoctors" />
+        </activity>
+        <activity
+            android:name=".KaridiHelliniko"
+            android:label="@string/title_activity_karidi_helliniko"
+            android:parentActivityName=".HellinikoDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoDoctors" />
+        </activity>
+        <activity
+            android:name=".IliopoulosHelliniko"
+            android:label="@string/title_activity_iliopoulos_helliniko" 
+            android:parentActivityName=".HellinikoDoctors" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smartcityguide.HellinikoDoctors" /> 
         </activity>
     </application>
 

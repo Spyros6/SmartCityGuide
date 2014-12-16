@@ -198,5 +198,16 @@
     <string name="title_activity_vale_vale_argyroupolis">Vale Vale</string>
     <string name="title_activity_fabrica_argyroupolis">Fabrica</string>
     <string name="title_activity_video_blue_helliniko">Video Blue Helliniko</string>
+    <string name="title_activity_tziallas_argyroupolis">Tziallas Mixahl</string>
+    <string name="title_activity_riganatos_argyroupolis">Riganatos Theofanis</string>
+    <string name="title_activity_alikakou_argyroupolis">Alikakou Vasiliki</string>
+    <string name="title_activity_provatas_argyroupolis">Provatas Dimitrios</string>
+    <string name="title_activity_kavvadas_argyroupolis">Kavvadas Dimitrios</string>
+    <string name="title_activity_gerolimos_argyroupolis">Gerolimos Dimitrios</string>
+    <string name="title_activity_maurokefalos_helliniko">Maurokefalos Gerasimos</string>
+    <string name="title_activity_paximadakis_helliniko">Paximadakis Emmanouhl</string>
+    <string name="title_activity_aslanidis_helliniko">Aslanidis Dimitrios</string>
+    <string name="title_activity_karidi_helliniko">Karidi Eirini</string>
+    <string name="title_activity_iliopoulos_helliniko">Iliopoulos Themistoklis</string>
 
 </resources>
