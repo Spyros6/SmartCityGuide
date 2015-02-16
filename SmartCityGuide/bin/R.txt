@@ -802,8 +802,7 @@ int layout activity_whispers_cafe 0x7f0300da
 int layout activity_xara_argyroupolis 0x7f0300db
 int layout activity_yammi_yammi 0x7f0300dc
 int layout activity_zymoto_argyroupolis 0x7f0300dd
-int layout fragment_main 0x7f0300de
-int layout support_simple_spinner_dropdown_item 0x7f0300df
+int layout support_simple_spinner_dropdown_item 0x7f0300de
 int menu alargino_rakadiko 0x7f0d0000
 int menu all_piccolo 0x7f0d0001
 int menu alpha_bank_argyroupolis 0x7f0d0002

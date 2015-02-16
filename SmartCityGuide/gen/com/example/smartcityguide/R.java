@@ -2471,8 +2471,7 @@ containing a value of this type.
         public static final int activity_xara_argyroupolis=0x7f0300db;
         public static final int activity_yammi_yammi=0x7f0300dc;
         public static final int activity_zymoto_argyroupolis=0x7f0300dd;
-        public static final int fragment_main=0x7f0300de;
-        public static final int support_simple_spinner_dropdown_item=0x7f0300df;
+        public static final int support_simple_spinner_dropdown_item=0x7f0300de;
     }
     public static final class menu {
         public static final int alargino_rakadiko=0x7f0d0000;
