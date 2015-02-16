@@ -209,5 +209,6 @@
     <string name="title_activity_aslanidis_helliniko">Aslanidis Dimitrios</string>
     <string name="title_activity_karidi_helliniko">Karidi Eirini</string>
     <string name="title_activity_iliopoulos_helliniko">Iliopoulos Themistoklis</string>
+    <string name="title_activity_map">Map</string>
 
 </resources>
