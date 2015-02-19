@@ -22,7 +22,7 @@ public class HugCafe extends MainActivity {
 	
 	Button btnShowLocation;
 	
-	GPSTracker gps;
+	//GPSTracker gps;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -62,29 +62,18 @@ public class HugCafe extends MainActivity {
 			}
 	    	
 	    });
+	   
+	    Button btnShowLocation = (Button)findViewById(R.id.show_location);
+	    btnShowLocation.setOnClickListener(new OnClickListener() {
 	    
-	    btnShowLocation = (Button) findViewById(R.id.show_location);
-	    
-	    btnShowLocation.setOnClickListener(new View.OnClickListener() {
+	   
 			
 			@Override
 			public void onClick(View v) {
-				gps = new GPSTracker(HugCafe.this);
-				
-				if(gps.canGetLocation()){
-					double latitude = gps.getLatitude();
-				    double longitude = gps.getLongitude();
-				    
-				    Toast.makeText(getApplicationContext(),
-				    		"Your Location is - \nLat: "  +latitude + "\nLong:  "
-				     +longitude, Toast.LENGTH_LONG).show();
-				
-				}else{
-					
-					gps.showSettingsAlert();
-				}
-			}
-		});
+				Intent intent = new Intent(HugCafe.this, Map.class);
+			    startActivity(intent);
+			    }
+			    });
 	    	
 	  }
 
