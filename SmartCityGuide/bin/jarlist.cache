@@ -1,5 +1,7 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1424346808420 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 C:\Users\siolo_000\git\LocalSmartCityGuideRespository\SmartCityGuide\libs\android-support-v4.jar
-1424090714055 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 C:\Users\siolo_000\workspace\appcompat_v7\libs\android-support-v4.jar
+1424432331050 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 C:\Users\siolo_000\git\LocalSmartCityGuideRespository\SmartCityGuide\libs\android-support-v4.jar
+1424431587870 995624 3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28 C:\Users\siolo_000\workspace\appcompat_v7\libs\android-support-v4.jar
+1418133875527 3508206 9b63d9aba531aa7ff5dd30e0c872e8ca550b363a C:\Users\siolo_000\git\LocalSmartCityGuideRespository\SmartCityGuide\libs\google-play-services.jar
+1418133875527 3508206 9b63d9aba531aa7ff5dd30e0c872e8ca550b363a C:\Users\siolo_000\workspace\google-play-services_lib\libs\google-play-services.jar
