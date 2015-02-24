@@ -7,42 +7,22 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-
-
-	<Button
-	    android:id="@+id/btnSurrey"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentRight="true"
-	    android:layout_alignParentTop="true"
-	    android:onClick="onClick_Surrey"
-	    android:text="Surrey" />
-
+	
     
 	<fragment
 	    android:id="@+id/map"
 	    android:name="com.google.android.gms.maps.MapFragment"
-	    android:layout_below="@+id/btnSurrey"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
-		/>
+	    android:layout_below="@+id/btnHug" />
 
 	<Button
-	    android:id="@+id/btnBurnaby"
+	    android:id="@+id/btnHug"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:layout_alignParentTop="true"
-	    android:layout_centerHorizontal="true"
-	    android:onClick="onClick_Burnaby"
-	    android:text="Burnaby" />
-
-	<Button
-	    android:id="@+id/btnCity"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentLeft="true"
-	    android:layout_alignParentTop="true"
-	    android:onClick="onClick_City"
-	    android:text="City" />
+	    android:layout_alignLeft="@+id/map"
+	    android:layout_alignRight="@+id/map"
+	    android:onClick="onClick_Hug"
+	    android:text="Press to see Location" />
 
 </RelativeLayout>

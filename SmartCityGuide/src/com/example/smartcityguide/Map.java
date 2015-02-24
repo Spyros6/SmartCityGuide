@@ -14,8 +14,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class Map extends Activity {
-	private final LatLng LOCATION_BURNABY = new LatLng(49.27645, -122.917587);
-	private final LatLng LOCATION_SURRREY = new LatLng(37.9073159, 23.7490881);
+
+	private final LatLng LOCATION_HUG = new LatLng(37.9073159, 23.7490881);
 	
 	private GoogleMap map;
 
@@ -26,7 +26,7 @@ public class Map extends Activity {
 		
 		map  = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
 		
-		map.addMarker(new MarkerOptions().position(LOCATION_SURRREY).title("Find me here!"));
+		map.addMarker(new MarkerOptions().position(LOCATION_HUG).title("Marinou Geroulanou 55, Argyroupoli - 16452"));
 	}
 
 	@Override
@@ -36,21 +36,10 @@ public class Map extends Activity {
 		return true;
 	}
 	
-	public void onClick_City(View v) {
-//		CameraUpdate update = CameraUpdateFactory.newLatLng(LOCATION_BURNABY);
-		map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-		CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_BURNABY, 9);
-		map.animateCamera(update);
-	}
-	public void onClick_Burnaby(View v) {
-		map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
-		CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_BURNABY, 14);
-		map.animateCamera(update);
-		
-	}
-	public void onClick_Surrey(View v) {
+	
+	public void onClick_Hug(View v) {
 		map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-		CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_SURRREY, 16);
+		CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_HUG, 16);
 		map.animateCamera(update);
 		
 	}

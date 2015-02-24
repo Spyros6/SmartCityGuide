@@ -64,13 +64,31 @@
           android:text="www.hugcafebar.com"
           android:visibility="visible" />
 
+      <ImageView
+          android:id="@+id/imageView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/show_location"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:src="@drawable/hug" />
+
       <Button
           android:id="@+id/show_location"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_above="@+id/textView1"
-          android:layout_alignLeft="@+id/textView1"
-          android:layout_marginBottom="32dp"
+          android:layout_alignRight="@+id/btncall"
+          android:layout_marginBottom="18dp"
           android:text="Show Location" />
+
+      <ImageView
+          android:id="@+id/imageView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/show_location"
+          android:layout_toLeftOf="@+id/textView1"
+          android:src="@drawable/checkin" />
 
 </RelativeLayout>
