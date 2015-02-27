@@ -29,15 +29,8 @@ public class Map extends Activity {
 		map.addMarker(new MarkerOptions().position(LOCATION_HUG).title("Marinou Geroulanou 55, Argyroupoli - 16452"));
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
-	
-	
-	public void onClick_Hug(View v) {
+
+  public void onClick_Hug(View v) {
 		map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 		CameraUpdate update = CameraUpdateFactory.newLatLngZoom(LOCATION_HUG, 16);
 		map.animateCamera(update);

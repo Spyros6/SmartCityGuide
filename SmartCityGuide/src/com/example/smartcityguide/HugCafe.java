@@ -22,7 +22,7 @@ public class HugCafe extends MainActivity {
 	
 	Button btnShowLocation;
 	
-	//GPSTracker gps;
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

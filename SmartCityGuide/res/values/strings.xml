@@ -210,5 +210,9 @@
     <string name="title_activity_karidi_helliniko">Karidi Eirini</string>
     <string name="title_activity_iliopoulos_helliniko">Iliopoulos Themistoklis</string>
     <string name="title_activity_map">Map</string>
+    <string name="title_activity_map_inversion">Map Inversion</string>
+    <string name="title_activity_map_fabrica">Map Fabrica</string>
+    <string name="title_activity_map_erotimatiko">Map Erotimatiko</string>
+    <string name="title_activity_map_barrel_haus">Map Barrel Haus</string>
 
 </resources>
