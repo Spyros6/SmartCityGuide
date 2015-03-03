@@ -214,5 +214,15 @@
     <string name="title_activity_map_fabrica">Map Fabrica</string>
     <string name="title_activity_map_erotimatiko">Map Erotimatiko</string>
     <string name="title_activity_map_barrel_haus">Map Barrel Haus</string>
+    <string name="title_activity_map_vale_vale">Map ValeVale</string>
+    <string name="title_activity_map_mparallou">Map Mparallou</string>
+    <string name="title_activity_map_sorhdon">Map Sorhdon</string>
+    <string name="title_activity_map_ndrangheta">Map Ndrangheta</string>
+    <string name="title_activity_map_replay_cafe">Map ReplayCafe</string>
+    <string name="title_activity_map_whisperss_cafe">Map Whisperss Cafe</string>
+    <string name="title_activity_map_sis_cafe">Map Sis Cafe</string>
+    <string name="title_activity_map_terminal_cafe">Map Terminal Cafe</string>
+    <string name="title_activity_map_coffee_island_helliniko">Map CoffeeIsland Helliniko</string>
+    <string name="title_activity_map_icafe_bar">Map I Cafe Bar</string>
 
 </resources>

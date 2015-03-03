@@ -1658,6 +1658,46 @@
             android:name=".MapBarrelHaus"
             android:label="@string/title_activity_map_barrel_haus" >
         </activity>
+        <activity
+            android:name=".MapValeVale"
+            android:label="@string/title_activity_map_vale_vale" >
+        </activity>
+        <activity
+            android:name=".MapMparallou"
+            android:label="@string/title_activity_map_mparallou" >
+        </activity>
+        <activity
+            android:name=".MapSorhdon"
+            android:label="@string/title_activity_map_sorhdon" >
+        </activity>
+        <activity
+            android:name=".MapNdrangheta"
+            android:label="@string/title_activity_map_ndrangheta" >
+        </activity>
+        <activity
+            android:name=".MapReplayCafe"
+            android:label="@string/title_activity_map_replay_cafe" >
+        </activity>
+        <activity
+            android:name=".MapWhisperssCafe"
+            android:label="@string/title_activity_map_whisperss_cafe" >
+        </activity>
+        <activity
+            android:name=".MapSisCafe"
+            android:label="@string/title_activity_map_sis_cafe" >
+        </activity>
+        <activity
+            android:name=".MapTerminalCafe"
+            android:label="@string/title_activity_map_terminal_cafe" >
+        </activity>
+        <activity
+            android:name=".MapCoffeeIslandHelliniko"
+            android:label="@string/title_activity_map_coffee_island_helliniko" >
+        </activity>
+        <activity
+            android:name=".MapICafeBar"
+            android:label="@string/title_activity_map_icafe_bar" >
+        </activity>
     </application>
 
 </manifest>
