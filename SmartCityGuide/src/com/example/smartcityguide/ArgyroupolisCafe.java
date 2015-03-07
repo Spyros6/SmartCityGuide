@@ -19,11 +19,7 @@ public class ArgyroupolisCafe extends ListActivity {
 			"Inverso" ,
 			"Besito Cafe" , 
 			"Hug Cafe" ,
-			"Antithesis Cafe" ,
-			"Siempre Cafe",
-			"All Piccolo",
-			"Coffe Island",
-			"Vintage Cafe Bar"};
+			"Vintaz Cafe Bar"};
 	ListView l;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,46 +61,11 @@ public class ArgyroupolisCafe extends ListActivity {
 	    		startActivity(intent);
 	    		}
 	     
+	     
 	     if (position == 5) {
-	    		Intent intent = new Intent(this, AntithesisCafe.class);
-	    		startActivity(intent);
-	    		}
-	     
-	     if (position == 6) {
-	    		Intent intent = new Intent(this, SiempreCafe.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 7) {
-	    		Intent intent = new Intent(this, AllPiccolo.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 8) {
-	    		Intent intent = new Intent(this, CoffeeIsland.class);
-	    		startActivity(intent);
-	    		}
-	     
-	     if (position == 9) {
-	    		Intent intent = new Intent(this, VintageCafeBar.class);
+	    		Intent intent = new Intent(this, VintazCafeBar.class);
 	    		startActivity(intent);
 	    		}
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.argyroupolis_cafe, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
 }

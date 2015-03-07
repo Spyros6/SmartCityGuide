@@ -1698,6 +1698,106 @@
             android:name=".MapICafeBar"
             android:label="@string/title_activity_map_icafe_bar" >
         </activity>
+        <activity
+            android:name=".MapEternoCafeBar"
+            android:label="@string/title_activity_map_eterno_cafe_bar" >
+        </activity>
+        <activity
+            android:name=".MapVasilopoulosEll"
+            android:label="@string/title_activity_map_vasilopoulos_ell" >
+        </activity>
+        <activity
+            android:name=".MapSklavenitisEll"
+            android:label="@string/title_activity_map_sklavenitis_ell" >
+        </activity>
+        <activity
+            android:name=".MapCarrefourEll"
+            android:label="@string/title_activity_map_carrefour_ell" >
+        </activity>
+        <activity
+            android:name=".MapOKanytimemarketEll"
+            android:label="@string/title_activity_map_okanytimemarket_ell" >
+        </activity>
+        <activity
+            android:name=".MapVasilopoulosArg"
+            android:label="@string/title_activity_map_vasilopoulos_arg" >
+        </activity>
+        <activity
+            android:name=".MapSklavenitisArg"
+            android:label="@string/title_activity_map_sklavenitis_arg" >
+        </activity>
+        <activity
+            android:name=".MapCarrefourMarinopoulosArg"
+            android:label="@string/title_activity_map_carrefour_marinopoulos_arg" >
+        </activity>
+        <activity
+            android:name=".MapCarrefourArg"
+            android:label="@string/title_activity_map_carrefour_arg" >
+        </activity>
+        <activity
+            android:name=".MapGalaxias"
+            android:label="@string/title_activity_map_galaxias" >
+        </activity>
+        <activity
+            android:name=".MapVidalis"
+            android:label="@string/title_activity_map_vidalis" >
+        </activity>
+        <activity
+            android:name=".MapOKanytimeMarketArg"
+            android:label="@string/title_activity_map_okanytime_market_arg" >
+        </activity>
+        <activity
+            android:name=".MapBesitoCafe"
+            android:label="@string/title_activity_map_besito_cafe" >
+        </activity>
+        <activity
+            android:name=".VintazCafeBar"
+            android:label="@string/title_activity_vintaz_cafe_bar" >
+        </activity>
+        <activity
+            android:name=".MapVintazCafe"
+            android:label="@string/title_activity_map_vintaz_cafe" >
+        </activity>
+        <activity
+            android:name=".MapEKOArg"
+            android:label="@string/title_activity_map_ekoarg" >
+        </activity>
+        <activity
+            android:name=".MapShell"
+            android:label="@string/title_activity_map_shell" >
+        </activity>
+        <activity
+            android:name=".MapRevoilArg"
+            android:label="@string/title_activity_map_revoil_arg" >
+        </activity>
+        <activity
+            android:name=".MapBestOil"
+            android:label="@string/title_activity_map_best_oil" >
+        </activity>
+        <activity
+            android:name=".Aegean"
+            android:label="@string/title_activity_aegean" >
+        </activity>
+        <activity
+            android:name=".MapAegean"
+            android:label="@string/title_activity_map_aegean" >
+        </activity>
+        <activity
+            android:name=".MapRevoilEll"
+            android:label="@string/title_activity_map_revoil_ell" >
+        </activity>
+        <activity
+            android:name=".MapEteka"
+            android:label="@string/title_activity_map_eteka" >
+        </activity>
+        <activity
+            android:name=".MapInvictusGas"
+            android:label="@string/title_activity_map_invictus_gas" >
+        </activity>
+        <activity
+            android:name=".MapBP"
+            android:label="@string/title_activity_map_bp" >
+        </activity>
     </application>
 
 </manifest>

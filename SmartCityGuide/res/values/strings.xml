@@ -224,5 +224,30 @@
     <string name="title_activity_map_terminal_cafe">Map Terminal Cafe</string>
     <string name="title_activity_map_coffee_island_helliniko">Map CoffeeIsland Helliniko</string>
     <string name="title_activity_map_icafe_bar">Map I Cafe Bar</string>
+    <string name="title_activity_map_eterno_cafe_bar">Map Eterno CafeBar</string>
+    <string name="title_activity_map_vasilopoulos_ell">Map VasilopoulosEll</string>
+    <string name="title_activity_map_sklavenitis_ell">Map SklavenitisEll</string>
+    <string name="title_activity_map_carrefour_ell">MapCarrefourEll</string>
+    <string name="title_activity_map_okanytimemarket_ell">Map OK anytimemarketEll</string>
+    <string name="title_activity_map_vasilopoulos_arg">Map Vasilopoulos Arg</string>
+    <string name="title_activity_map_sklavenitis_arg">Map Sklavenitis Arg</string>
+    <string name="title_activity_map_carrefour_marinopoulos_arg">Map CarrefourMarinopoulos Arg</string>
+    <string name="title_activity_map_carrefour_arg">Map Carrefour Arg</string>
+    <string name="title_activity_map_galaxias">Map Galaxias</string>
+    <string name="title_activity_map_vidalis">Map VidalisMarket</string>
+    <string name="title_activity_map_okanytime_market_arg">Map OKanytime Market Arg</string>
+    <string name="title_activity_map_besito_cafe">Map Besito Cafe</string>
+    <string name="title_activity_vintaz_cafe_bar">Vintaz Cafe Bar</string>
+    <string name="title_activity_map_vintaz_cafe">Map VintazCafeBar</string>
+    <string name="title_activity_map_ekoarg">Map EKO Arg</string>
+    <string name="title_activity_map_shell">Map Shell</string>
+    <string name="title_activity_map_revoil_arg">Map Revoil Arg</string>
+    <string name="title_activity_map_best_oil">Map BestOil</string>
+    <string name="title_activity_aegean">Aegean</string>
+    <string name="title_activity_map_aegean">MapAegean</string>
+    <string name="title_activity_map_revoil_ell">Map RevoilEll</string>
+    <string name="title_activity_map_eteka">Map Eteka</string>
+    <string name="title_activity_map_invictus_gas">Map InvictusGas</string>
+    <string name="title_activity_map_bp">Map BP</string>
 
 </resources>
