@@ -17,7 +17,6 @@ public class ArgyroupolisPharmacy extends ListActivity {
 	String arr[] = {"Athiniotou D.",
 			"Aleksandridi Smaragda" ,
 			"Afendra Marianna" ,
-			"Georgiadou Athina" ,
 			"Kelepesi Maria",
 			"Papadaki-Nitsou Mixaela",
 			"Tsonou Eleni"};
@@ -50,40 +49,20 @@ public class ArgyroupolisPharmacy extends ListActivity {
 	    		Intent intent = new Intent(this, AfendraArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
+	 
 	     if (position == 3) {
-	    		Intent intent = new Intent(this, GeorgiadouArgyroupolis.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 4) {
 	    		Intent intent = new Intent(this, KalepesiArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 5) {
+	     if (position == 4) {
 	    		Intent intent = new Intent(this, PapadakiArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 6) {
+	     if (position == 5) {
 	    		Intent intent = new Intent(this, TsonouArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
 	}
 	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.argyroupolis_pharmacy, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+	
 }

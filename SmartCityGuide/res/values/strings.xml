@@ -249,5 +249,17 @@
     <string name="title_activity_map_eteka">Map Eteka</string>
     <string name="title_activity_map_invictus_gas">Map InvictusGas</string>
     <string name="title_activity_map_bp">Map BP</string>
+    <string name="title_activity_map_athiniotou">Map Athiniotou</string>
+    <string name="title_activity_map_aleksandridi">Map Aleksandridi</string>
+    <string name="title_activity_map_afendra">Map Afendra</string>
+    <string name="title_activity_map_kalepesi">Map Kalepesi</string>
+    <string name="title_activity_map_kelepesi">Map Kelepesi</string>
+    <string name="title_activity_map_papadaki">Map Papadaki</string>
+    <string name="title_activity_tsonou_map">Tsonou Map</string>
+    <string name="title_activity_map_douzeni">Map Douzeni</string>
+    <string name="title_activity_map_karavasileiadi">Map Karavasileiadi</string>
+    <string name="title_activity_map_spiliotopoulou">Map Spiliotopoulou</string>
+    <string name="title_activity_map_spuropoulos">Map Spuropoulos</string>
+    <string name="title_activity_map_saporita">Map Saporita</string>
 
 </resources>

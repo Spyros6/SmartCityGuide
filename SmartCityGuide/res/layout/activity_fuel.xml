@@ -26,16 +26,6 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/btnHelliniko6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="140dp"
-        android:text="Helliniko" />
-
-    <Button
         android:id="@+id/btnArguroupolis6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,5 +34,15 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="64dp"
         android:text="Argyroupolis" />
+
+    <Button
+        android:id="@+id/btnHelliniko6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnArguroupolis6"
+        android:layout_marginTop="86dp"
+        android:text="Helliniko" />
 
 </RelativeLayout>

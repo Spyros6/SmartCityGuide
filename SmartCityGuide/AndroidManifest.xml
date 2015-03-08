@@ -1798,6 +1798,54 @@
             android:name=".MapBP"
             android:label="@string/title_activity_map_bp" >
         </activity>
+        <activity
+            android:name=".MapAthiniotou"
+            android:label="@string/title_activity_map_athiniotou" >
+        </activity>
+        <activity
+            android:name=".MapAleksandridi"
+            android:label="@string/title_activity_map_aleksandridi" >
+        </activity>
+        <activity
+            android:name=".MapAfendra"
+            android:label="@string/title_activity_map_afendra" >
+        </activity>
+        <activity
+            android:name=".MapKalepesi"
+            android:label="@string/title_activity_map_kalepesi" >
+        </activity>
+        <activity
+            android:name=".MapKelepesi"
+            android:label="@string/title_activity_map_kelepesi" >
+        </activity>
+        <activity
+            android:name=".MapPapadaki"
+            android:label="@string/title_activity_map_papadaki" >
+        </activity>
+        <activity
+            android:name=".TsonouMap"
+            android:label="@string/title_activity_tsonou_map" >
+        </activity>
+        <activity
+            android:name=".MapDouzeni"
+            android:label="@string/title_activity_map_douzeni" >
+        </activity>
+        <activity
+            android:name=".MapKaravasileiadi"
+            android:label="@string/title_activity_map_karavasileiadi" >
+        </activity>
+        <activity
+            android:name=".MapSpiliotopoulou"
+            android:label="@string/title_activity_map_spiliotopoulou" >
+        </activity>
+        <activity
+            android:name=".MapSpuropoulos"
+            android:label="@string/title_activity_map_spuropoulos" >
+        </activity>
+        <activity
+            android:name=".MapSaporita"
+            android:label="@string/title_activity_map_saporita" >
+        </activity>
     </application>
 
 </manifest>

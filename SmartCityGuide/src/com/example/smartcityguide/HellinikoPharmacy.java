@@ -14,10 +14,8 @@ import android.widget.Toast;
 
 public class HellinikoPharmacy extends ListActivity {
 
-	String arr[] = {"Asikis Athanasios",
-			"Douzeni Maria" ,
+	String arr[] = {"Douzeni Maria" ,
 			"Karavasileiadi Svetlana" ,
-			"Kimioni Eua" ,
 			"Spiliotopoulou Vasiliki" ,
 			"Spuropoulos Athanasios" ,
 			"Saporita Salvatore"};
@@ -37,53 +35,30 @@ public class HellinikoPharmacy extends ListActivity {
 		// TODO Auto-generated method stub
 	     super.onListItemClick(l, v, position, id);
 
+	
 	     if (position == 0) {
-	    		Intent intent = new Intent(this, AsikisHelliniko.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 1) {
 	    		Intent intent = new Intent(this, DouzeniHelliniko.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 2) {
+	     if (position == 1) {
 	    		Intent intent = new Intent(this, KaravasileiadiHelliniko.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 3) {
-	    		Intent intent = new Intent(this, KimioniHelliniko.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 4) {
+	    
+	     if (position == 2) {
 	    		Intent intent = new Intent(this, SpiliotopoulouHelliniko.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 5) {
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, SpuropoulosHelliniko.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 6) {
+	     if (position == 4) {
 	    		Intent intent = new Intent(this, SaporitaHelliniko.class);
 	    		startActivity(intent);
 	    		}
 	}
 	
 	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.helliniko_pharmacy, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+	
 }
