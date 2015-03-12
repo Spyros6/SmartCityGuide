@@ -15,13 +15,9 @@ import android.widget.Toast;
 public class ArgyroupolisBakery extends ListActivity {
 
 	String arr[] = {"H Xara ths Argyroupolhs",
-			"Katsioulhs Anastasios",
-			"Sothriadou Despoina",
+			"Margarita",
 			"To Zymoto" ,
-			"Gkrousths G" ,
 			"Beneth" , 
-			"Myrtaki" ,
-			"Margaritis Nikolaos A.",
 			"Renieris Markos N."};
 	ListView l;
 	@Override
@@ -45,38 +41,21 @@ public class ArgyroupolisBakery extends ListActivity {
 	    		}
 
 	     if (position == 1) {
-	    		Intent intent = new Intent(this, KatsioulhsArgyroupolis.class);
+	    		Intent intent = new Intent(this, MargaritaArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
 
 	     if (position == 2) {
-	    		Intent intent = new Intent(this, SothriadouArgyroupolis.class);
-	    		startActivity(intent);
-	    		}
-
-	     if (position == 3) {
 	    		Intent intent = new Intent(this, ZymotoArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
 
-	     if (position == 4) {
-	    		Intent intent = new Intent(this, GkrousthsArgyroupolis.class);
-	    		startActivity(intent);
-	    		}
-
-	     if (position == 5) {
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, BenethArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 6) {
-	    		Intent intent = new Intent(this, MyrtakiArgyroupolis.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 7) {
-	    		Intent intent = new Intent(this, MargaritisArgyroupolis.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 8) {
+	 
+	     if (position == 4) {
 	    		Intent intent = new Intent(this, RenierisArgyroupolis.class);
 	    		startActivity(intent);
 	    		}

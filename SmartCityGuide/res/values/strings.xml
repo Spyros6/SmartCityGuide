@@ -282,5 +282,15 @@
     <string name="title_activity_map_frantzolino">Map Frantzolino</string>
     <string name="title_activity_map_everest_ell">Map EverestEll</string>
     <string name="title_activity_map_to_geumataki">Map ToGeumataki</string>
+    <string name="title_activity_map_xara_argyroupolis">Map XaraArgyroupolis</string>
+    <string name="title_activity_margarita_argyroupolis">Margarita</string>
+    <string name="title_activity_map_margarita_argyroupolis">MapMargaritaArgyroupolis</string>
+    <string name="title_activity_map_zymwto">Map Zymwto</string>
+    <string name="title_activity_map_beneth">Map Beneth</string>
+    <string name="title_activity_map_renieris">Map Renieris</string>
+    <string name="title_activity_map_ta_giannena">Map Ta Giannena</string>
+    <string name="title_activity_map_ellinikon">Map Ellinikon</string>
+    <string name="title_activity_map_giouras">Map Giouras</string>
+    <string name="title_activity_map_sofoulis">Map Sofoulis</string>
 
 </resources>

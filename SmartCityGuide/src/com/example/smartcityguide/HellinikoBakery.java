@@ -14,9 +14,8 @@ import android.widget.Toast;
 
 public class HellinikoBakery extends ListActivity {
 
-	String arr[] = {"Katsioulhs Anastasios",
-			"Ta Giannena",
-			"Ellhnikon, Xrhstos Gkotshs",
+	String arr[] = {"Ta Giannena",
+			"Ellhnikon, Xrhstos Gotshs",
 			"O Fournos tou Gioura" ,
 			"Sofoulis" };
 	ListView l;
@@ -27,8 +26,7 @@ public class HellinikoBakery extends ListActivity {
 		l=getListView();	
 		ArrayAdapter<String> adapter= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arr);	
 		l.setAdapter(adapter);
-		
-		
+			
 	}
 
 	
@@ -37,44 +35,24 @@ public class HellinikoBakery extends ListActivity {
 		// TODO Auto-generated method stub
 	     super.onListItemClick(l, v, position, id);
 
+	
 	     if (position == 0) {
-	    		Intent intent = new Intent(this, KatsioulhsAnastasios.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 1) {
 	    		Intent intent = new Intent(this, TaGiannena.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 2) {
+	     if (position == 1) {
 	    		Intent intent = new Intent(this, EllhnikoBakery.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 3) {
+	     if (position == 2) {
 	    		Intent intent = new Intent(this, GiourasBakery.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 4) {
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, SofoulisBakery.class);
 	    		startActivity(intent);
 	    		}
 	}
 	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.helliniko_bakery, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+	
 }

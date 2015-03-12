@@ -1930,6 +1930,46 @@
             android:name=".MapToGeumataki"
             android:label="@string/title_activity_map_to_geumataki" >
         </activity>
+        <activity
+            android:name=".MapXaraArgyroupolis"
+            android:label="@string/title_activity_map_xara_argyroupolis" >
+        </activity>
+        <activity
+            android:name=".MargaritaArgyroupolis"
+            android:label="@string/title_activity_margarita_argyroupolis" >
+        </activity>
+        <activity
+            android:name=".MapMargaritaArgyroupolis"
+            android:label="@string/title_activity_map_margarita_argyroupolis" >
+        </activity>
+        <activity
+            android:name=".MapZymwto"
+            android:label="@string/title_activity_map_zymwto" >
+        </activity>
+        <activity
+            android:name=".MapBeneth"
+            android:label="@string/title_activity_map_beneth" >
+        </activity>
+        <activity
+            android:name=".MapRenieris"
+            android:label="@string/title_activity_map_renieris" >
+        </activity>
+        <activity
+            android:name=".MapTaGiannena"
+            android:label="@string/title_activity_map_ta_giannena" >
+        </activity>
+        <activity
+            android:name=".MapEllinikon"
+            android:label="@string/title_activity_map_ellinikon" >
+        </activity>
+        <activity
+            android:name=".MapGiouras"
+            android:label="@string/title_activity_map_giouras" >
+        </activity>
+        <activity
+            android:name=".MapSofoulis"
+            android:label="@string/title_activity_map_sofoulis" >
+        </activity>
     </application>
 
 </manifest>
