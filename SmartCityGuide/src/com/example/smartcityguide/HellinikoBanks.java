@@ -17,9 +17,7 @@ public class HellinikoBanks extends ListActivity {
 	String arr[] = {"Alpha Bank", 
 			"Eurobank Ergasias" ,
 			"Ethniki Trapeza" ,
-			"Trapeza Peiraiws" ,
-			"Trapeza Peiraiws 2",
-			"Taxydromiko Tamieythrio"};
+			"Trapeza Peiraiws" };
 	ListView l;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,14 +47,6 @@ public class HellinikoBanks extends ListActivity {
 	    		}
 	     if (position == 3) {
 	    		Intent intent = new Intent(this, TrapezaPeiraiwsHelliniko.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 4) {
-	    		Intent intent = new Intent(this, TrapezaPeiraiwsHelliniko2.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 5) {
-	    		Intent intent = new Intent(this, TaxydromikoTamieuthrio.class);
 	    		startActivity(intent);
 	    		}
 	

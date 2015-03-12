@@ -15,12 +15,9 @@ import android.widget.Toast;
 public class ArgyroupolisBanks extends ListActivity {
 
 	String arr[] = {"Alpha Bank", 
-			"Alpha Bank 2" ,
 			"Eurobank Ergasias" ,
-			"Eurobank Ergasias 2" ,
 			"Ethniki Trapeza" ,
-			"Trapeza Peiraiws" ,
-			"Trapeza Peiraiws 2"};
+			"Trapeza Peiraiws"};
 	ListView l;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,47 +39,20 @@ public class ArgyroupolisBanks extends ListActivity {
 	    		startActivity(intent);
 	    		}
 	     if (position == 1) {
-	    		Intent intent = new Intent(this, AlphaBankArgyroupolis2.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 2) {
 	    		Intent intent = new Intent(this, EurobankArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 3) {
-	    		Intent intent = new Intent(this, EurobankArgyroupolis2.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 4) {
+
+	     if (position == 2) {
 	    		Intent intent = new Intent(this, EthnikiTrapezaArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 5) {
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, TrapezaPeiraiwsArgyroupolis.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 6) {
-	    		Intent intent = new Intent(this, TrapezaPeiraiwsArgyroupolis2.class);
-	    		startActivity(intent);
-	    		}
+	   
 	}
 	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.argyroupolis_banks, menu);
-		return true;
-	}
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
 }

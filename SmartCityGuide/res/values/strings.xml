@@ -261,5 +261,26 @@
     <string name="title_activity_map_spiliotopoulou">Map Spiliotopoulou</string>
     <string name="title_activity_map_spuropoulos">Map Spuropoulos</string>
     <string name="title_activity_map_saporita">Map Saporita</string>
+    <string name="title_activity_map_alpha_bank_arg">Map AlphaBank Arg</string>
+    <string name="title_activity_map_eurobank_arg">Map EurobankArg</string>
+    <string name="title_activity_map_ethniki_trapeza_arg">Map EthnikiTrapeza Arg</string>
+    <string name="title_activity_map_peiraiws_arg">Map PeiraiwsArg</string>
+    <string name="title_activity_map_alpha_bank_ell">Map AlphaBank Ell</string>
+    <string name="title_activity_map_eurobank_ell">Map Eurobank Ell</string>
+    <string name="title_activity_map_ethniki_trapeza_ell">Map EthnikiTrapeza Ell</string>
+    <string name="title_activity_map_peiraiws_ell">Map Peiraiws Ell</string>
+    <string name="title_activity_map_stash_kalamaki">Map StashKalamaki</string>
+    <string name="title_activity_map_lefteris">Map Lefteris</string>
+    <string name="title_activity_map_pites_ntenh">Map PitesNtenh</string>
+    <string name="title_activity_map_gia_souvlaki">Map GiaSouvlaki</string>
+    <string name="title_activity_map_goodys">Map Goodys</string>
+    <string name="title_activity_map_everest">Map Everest</string>
+    <string name="title_activity_map_pites_gewrgias">Map PitesGewrgias</string>
+    <string name="title_activity_map_to_souvlatzidiko">Map ToSouvlatzidiko</string>
+    <string name="title_activity_map_school_souvlaki">Map SchoolSouvlaki</string>
+    <string name="title_activity_map_to_xryso">Map ToXryso</string>
+    <string name="title_activity_map_frantzolino">Map Frantzolino</string>
+    <string name="title_activity_map_everest_ell">Map EverestEll</string>
+    <string name="title_activity_map_to_geumataki">Map ToGeumataki</string>
 
 </resources>

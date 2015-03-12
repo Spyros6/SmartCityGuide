@@ -1846,6 +1846,90 @@
             android:name=".MapSaporita"
             android:label="@string/title_activity_map_saporita" >
         </activity>
+        <activity
+            android:name=".MapAlphaBankArg"
+            android:label="@string/title_activity_map_alpha_bank_arg" >
+        </activity>
+        <activity
+            android:name=".MapEurobankArg"
+            android:label="@string/title_activity_map_eurobank_arg" >
+        </activity>
+        <activity
+            android:name=".MapEthnikiTrapezaArg"
+            android:label="@string/title_activity_map_ethniki_trapeza_arg" >
+        </activity>
+        <activity
+            android:name=".MapPeiraiwsArg"
+            android:label="@string/title_activity_map_peiraiws_arg" >
+        </activity>
+        <activity
+            android:name=".MapAlphaBankEll"
+            android:label="@string/title_activity_map_alpha_bank_ell" >
+        </activity>
+        <activity
+            android:name=".MapEurobankEll"
+            android:label="@string/title_activity_map_eurobank_ell" >
+        </activity>
+        <activity
+            android:name=".MapEthnikiTrapezaEll"
+            android:label="@string/title_activity_map_ethniki_trapeza_ell" >
+        </activity>
+        <activity
+            android:name=".MapPeiraiwsEll"
+            android:label="@string/title_activity_map_peiraiws_ell" >
+        </activity>
+        <activity
+            android:name=".MapStashKalamaki"
+            android:label="@string/title_activity_map_stash_kalamaki" >
+        </activity>
+        <activity
+            android:name=".MapLefteris"
+            android:label="@string/title_activity_map_lefteris" >
+        </activity>
+        <activity
+            android:name=".MapPitesNtenh"
+            android:label="@string/title_activity_map_pites_ntenh" >
+        </activity>
+        <activity
+            android:name=".MapGiaSouvlaki"
+            android:label="@string/title_activity_map_gia_souvlaki" >
+        </activity>
+        <activity
+            android:name=".MapGoodys"
+            android:label="@string/title_activity_map_goodys" >
+        </activity>
+        <activity
+            android:name=".MapEverest"
+            android:label="@string/title_activity_map_everest" >
+        </activity>
+        <activity
+            android:name=".MapPitesGewrgias"
+            android:label="@string/title_activity_map_pites_gewrgias" >
+        </activity>
+        <activity
+            android:name=".MapToSouvlatzidiko"
+            android:label="@string/title_activity_map_to_souvlatzidiko" >
+        </activity>
+        <activity
+            android:name=".MapSchoolSouvlaki"
+            android:label="@string/title_activity_map_school_souvlaki" >
+        </activity>
+        <activity
+            android:name=".MapToXryso"
+            android:label="@string/title_activity_map_to_xryso" >
+        </activity>
+        <activity
+            android:name=".MapFrantzolino"
+            android:label="@string/title_activity_map_frantzolino" >
+        </activity>
+        <activity
+            android:name=".MapEverestEll"
+            android:label="@string/title_activity_map_everest_ell" >
+        </activity>
+        <activity
+            android:name=".MapToGeumataki"
+            android:label="@string/title_activity_map_to_geumataki" >
+        </activity>
     </application>
 
 </manifest>

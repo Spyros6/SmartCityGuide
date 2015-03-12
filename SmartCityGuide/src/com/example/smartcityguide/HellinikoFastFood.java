@@ -1,6 +1,6 @@
 package com.example.smartcityguide;
 
-import android.support.v7.app.ActionBarActivity;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,18 +9,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class HellinikoFastFood extends ListActivity {
 
-	String arr[] = {"To Elliniko", 
+	String arr[] = {
 			"To Souvlatzidiko ...opws ton palio kairo" ,
 			"School Souvlaki" ,
-			"To Spitiko o Spyros" ,
-			"Tamam Kempaptzidiko" ,
 			"To Xryso" ,
-			"Johnie Hot Dog",
 			"Frantzolino",
 			"To Geumataki",
 			"Everest"};
@@ -41,42 +37,28 @@ public class HellinikoFastFood extends ListActivity {
 	     super.onListItemClick(l, v, position, id);
 
 	     if (position == 0) {
-	    		Intent intent = new Intent(this, ToElliniko.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 1) {
 	    		Intent intent = new Intent(this, ToSouvlatzidiko.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 2) {
+	     if (position == 1) {
 	    		Intent intent = new Intent(this, SchoolSouvlaki.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 3) {
-	    		Intent intent = new Intent(this, SpitikoSpyros.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 4) {
-	    		Intent intent = new Intent(this, TamamKempap.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 5) {
+
+	     if (position == 2) {
 	    		Intent intent = new Intent(this, ToXryso.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 6) {
-	    		Intent intent = new Intent(this, JohnieHotDog.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 7) {
+	 
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, Frantzolino.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 8) {
+	     if (position == 4) {
 	    		Intent intent = new Intent(this, ToGeumataki.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 9) {
+	     if (position == 5) {
 	    		Intent intent = new Intent(this, EverestHelliniko.class);
 	    		startActivity(intent);
 	    		}
