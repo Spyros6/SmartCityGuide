@@ -14,15 +14,13 @@ import android.widget.Toast;
 
 public class ArguroupolisRestaurant extends ListActivity {
 
-	String arr[] = {"Sousami", "H Omorfh Gwnia" ,"H Elia"
-			, "Alargino Rakadiko" 
+	String arr[] = {"Sousami", 
+			"H Elia"
 			, "La Pasteria" 
 			, "Treis to Ladi..." 
-			,"Postali"
 			,"To Mpifteki ths Sofias"
-			,"H Kouzina ths Plateias"
-			,"Paleta Geusewn"
-			,"O Spyros"};
+			,"H Kouzina ths Plateias"};
+
 	ListView l;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,75 +42,34 @@ public class ArguroupolisRestaurant extends ListActivity {
 	    		Intent intent = new Intent(this, Sousami.class);
 	    		startActivity(intent);
 	    		}
+	    
 	     
 	     if (position == 1) {
-	    		Intent intent = new Intent(this, OmorfiGwnia.class);
-	    		startActivity(intent);
-	    		}
-	     
-	     if (position == 2) {
 	    		Intent intent = new Intent(this, Elia.class);
 	    		startActivity(intent);
 	    		}
 	     
-	     if (position == 3) {
-	    		Intent intent = new Intent(this, AlarginoRakadiko.class);
-	    		startActivity(intent);
-	    		}
-	     
-	     if (position == 4) {
+	     if (position == 2) {
 	    		Intent intent = new Intent(this, LaPasteria.class);
 	    		startActivity(intent);
 	    		}
 	     
-	     if (position == 5) {
+	     if (position == 3) {
 	    		Intent intent = new Intent(this, TreisToLadi.class);
 	    		startActivity(intent);
 	    		}
 	     
-	     if (position == 6) {
-	    		Intent intent = new Intent(this, Postali.class);
-	    		startActivity(intent);
-	    		}
-	     if (position == 7) {
+	     if (position == 4) {
 	    		Intent intent = new Intent(this, ToMpiftekiThsSofias.class);
 	    		startActivity(intent);
 	    		}
 	     
-	     if (position == 8) {
+	     if (position == 5) {
 	    		Intent intent = new Intent(this, KouzinaThsPlateias.class);
 	    		startActivity(intent);
 	    		}
-	     
-	     if (position == 9) {
-	    		Intent intent = new Intent(this, PaletaGeusewn.class);
-	    		startActivity(intent);
-	    		}
-	     
-	     if (position == 10) {
-	    		Intent intent = new Intent(this, TavernaSpyros.class);
-	    		startActivity(intent);
-	    		}
-	     
+	    
 	}
 
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.arguroupolis_restaurant, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
 }

@@ -4,7 +4,7 @@
     <string name="app_name">SmartCity Guide</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_restaurant">Restaurant</string>
     <string name="title_activity_doctors">Doctors</string>
     <string name="title_activity_cafe">Cafe</string>
     <string name="title_activity_cinemas">Cinemas</string>
@@ -292,5 +292,28 @@
     <string name="title_activity_map_ellinikon">Map Ellinikon</string>
     <string name="title_activity_map_giouras">Map Giouras</string>
     <string name="title_activity_map_sofoulis">Map Sofoulis</string>
+    <string name="title_activity_map_cine_aloma">Map CineAloma</string>
+    <string name="title_activity_map_cine_argyroupolis">Map CineArgyroupolis</string>
+    <string name="title_activity_map_cine_sofia">Map CineSofia</string>
+    <string name="title_activity_map_video_blue">Map VideoBlue</string>
+    <string name="title_activity_map_sousami">Map Sousami</string>
+    <string name="title_activity_map_elia">Map Elia</string>
+    <string name="title_activity_map_la_pasteria">Map LaPasteria</string>
+    <string name="title_activity_map_treis_to_ladi">Map TreisToLadi</string>
+    <string name="title_activity_map_mpifteki_sofias">Map MpiftekiSofias</string>
+    <string name="title_activity_map_kouzina_plateias">Map KouzinaPlateias</string>
+    <string name="title_activity_map_ta_litharitsia">Map Ta Litharitsia</string>
+    <string name="title_activity_map_krasadiko">Map Krasadiko</string>
+    <string name="title_activity_map_odos_aristotelous">Map Odos Aristotelous</string>
+    <string name="title_activity_map_auto_service">Map AutoService</string>
+    <string name="title_activity_map_power_team">Map PowerTeam</string>
+    <string name="title_activity_map_jeep_service">Map JeepService</string>
+    <string name="title_activity_map_car_technology">Map CarTechnology</string>
+    <string name="title_activity_map_kmservice">Map KMService</string>
+    <string name="title_activity_map_pro_sport_racing">Map ProSportRacing</string>
+    <string name="title_activity_map_romanos_power">Map RomanosPower</string>
+    <string name="title_activity_map_dakar_service">Map DakarService</string>
+    <string name="title_activity_map_gsmservice">Map GSMService</string>
+    <string name="title_activity_map_racing_service">Map RacingService</string>
 
 </resources>

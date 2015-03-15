@@ -1,34 +1,75 @@
 package com.example.smartcityguide;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class CineAloma extends ActionBarActivity {
 
+	@SuppressWarnings("unused")
+	private Button callBtn;
+	private Button webBtn;
+	
+	Button btnShowLocation;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_cine_aloma);
-	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.cine_aloma, menu);
-		return true;
-	}
+		Button callBtn = (Button) findViewById(R.id.btncall);
+	    callBtn.setOnClickListener(new OnClickListener() 
+	    {
+			 	
+	        @Override
+			public void onClick(View v) {
+				Intent callIntent = new Intent(Intent.ACTION_CALL);
+				callIntent.setData(Uri.parse("tel:+30 2109937011 "));
+				startActivity(callIntent);
+				
+			   }
+	    });
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+	    Button webBtn = (Button) findViewById(R.id.btnweb);
+	    webBtn.setOnClickListener(new OnClickListener()
+	    {
+
+			@Override
+			public void onClick(View v) {
+
+				String url = "http://www.kinimatografoi.gr/cinemas/%CE%B1%CE%BB%CF%8C%CE%BC%CE%B1";
+				Intent i = new Intent(Intent.ACTION_VIEW);
+				i.setData(Uri.parse(url));
+				startActivity(i);
+	  }
+	    	
+	    });
+		
+
+	    Button btnShowLocation = (Button)findViewById(R.id.show_location);
+	    btnShowLocation.setOnClickListener(new OnClickListener() {
+	    
+	   
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(CineAloma.this, MapCineAloma.class);
+			    startActivity(intent);
+			    }
+			    });
+	    	
+	  }
+	
 }
+
+
+	
+	
+
+
+

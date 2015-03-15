@@ -474,14 +474,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-        <activity
-            android:name=".OmorfiGwnia"
-            android:label="@string/title_activity_omorfi_gwnia"
-            android:parentActivityName=".ArgyroupolisRestaurant" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
-        </activity>
+      
         <activity
             android:name=".Elia"
             android:label="@string/title_activity_elia"
@@ -490,14 +483,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-        <activity
-            android:name=".AlarginoRakadiko"
-            android:label="@string/title_activity_alargino_rakadiko"
-            android:parentActivityName=".ArgyroupolisRestaurant" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
-        </activity>
+       
         <activity
             android:name=".LaPasteria"
             android:label="@string/title_activity_la_pasteria"
@@ -514,14 +500,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-        <activity
-            android:name=".Postali"
-            android:label="@string/title_activity_postali"
-            android:parentActivityName=".ArgyroupolisRestaurant" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
-        </activity>
+       
         <activity
             android:name=".ToMpiftekiThsSofias"
             android:label="@string/title_activity_to_mpifteki_ths_sofias"
@@ -538,22 +517,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-        <activity
-            android:name=".PaletaGeusewn"
-            android:label="@string/title_activity_paleta_geusewn"
-            android:parentActivityName=".ArgyroupolisRestaurant" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
-        </activity>
-        <activity
-            android:name=".TavernaSpyros"
-            android:label="@string/title_activity_taverna_spyros"
-            android:parentActivityName=".ArgyroupolisRestaurant" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
-        </activity>
+     
         <activity
             android:name=".ICafeBar"
             android:label="@string/title_activity_icafe_bar"
@@ -602,46 +566,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisCafe" />
         </activity>
-        <activity
-            android:name=".SiempreCafe"
-            android:label="@string/title_activity_siempre_cafe"
-            android:parentActivityName=".ArgyroupolisCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
-        </activity>
-        <activity
-            android:name=".AllPiccolo"
-            android:label="@string/title_activity_all_piccolo"
-            android:parentActivityName=".ArgyroupolisCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
-        </activity>
-        <activity
-            android:name=".CoffeeIsland"
-            android:label="@string/title_activity_coffee_island"
-            android:parentActivityName=".ArgyroupolisCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
-        </activity>
-        <activity
-            android:name=".VintageCafeBar"
-            android:label="@string/title_activity_vintage_cafe_bar"
-            android:parentActivityName=".ArgyroupolisCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisCafe" />
-        </activity>
-        <activity
-            android:name=".QuizCafe"
-            android:label="@string/title_activity_quiz_cafe"
-            android:parentActivityName=".HellinikoCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoCafe" />
-        </activity>
+       
         <activity
             android:name=".TerminalCafe"
             android:label="@string/title_activity_terminal_cafe"
@@ -674,14 +599,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoCafe" />
         </activity>
-        <activity
-            android:name=".Dodwnh"
-            android:label="@string/title_activity_dodwnh"
-            android:parentActivityName=".HellinikoCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoCafe" />
-        </activity>
+        
         <activity
             android:name=".ReplayCafeBistro"
             android:label="@string/title_activity_replay_cafe_bistro"
@@ -690,14 +608,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoCafe" />
         </activity>
-        <activity
-            android:name=".DailysCafe"
-            android:label="@string/title_activity_dailys_cafe"
-            android:parentActivityName=".HellinikoCafe" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoCafe" />
-        </activity>
+       
         <activity
             android:name=".SisCafe"
             android:label="@string/title_activity_sis_cafe"
@@ -738,14 +649,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-        <activity
-            android:name=".ThurioSouvlakiBar"
-            android:label="@string/title_activity_thurio_souvlaki_bar"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
+        
         <activity
             android:name=".LefterisArgyroupolis"
             android:label="@string/title_activity_lefteris_argyroupolis"
@@ -754,26 +658,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-        <activity
-            android:name=".Mpaltas"
-            android:label="@string/title_activity_mpaltas"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
+       
         <activity
             android:name=".PitesTouNtenh"
             android:label="@string/title_activity_pites_tou_ntenh" >
         </activity>
-        <activity
-            android:name=".Nostimies"
-            android:label="@string/title_activity_nostimies"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
+       
         <activity
             android:name=".GiaSouvlaki"
             android:label="@string/title_activity_gia_souvlaki"
@@ -798,42 +688,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-        <activity
-            android:name=".YammiYammi"
-            android:label="@string/title_activity_yammi_yammi"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
-        <activity
-            android:name=".VegasBurger"
-            android:label="@string/title_activity_vegas_burger"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
-        <activity
-            android:name=".Twenty11"
-            android:label="@string/title_activity_twenty11"
-            android:parentActivityName=".ArgyroupolisFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
-        </activity>
+      
         <activity
             android:name=".PitesThsGewrgias"
             android:label="@string/title_activity_pites_ths_gewrgias" >
         </activity>
-        <activity
-            android:name=".ToElliniko"
-            android:label="@string/title_activity_to_elliniko"
-            android:parentActivityName=".HellinikoFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoFastFood" />
-        </activity>
+       
         <activity
             android:name=".ToSouvlatzidiko"
             android:label="@string/title_activity_to_souvlatzidiko"
@@ -850,22 +710,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoFastFood" />
         </activity>
-        <activity
-            android:name=".SpitikoSpyros"
-            android:label="@string/title_activity_spitiko_spyros"
-            android:parentActivityName=".HellinikoFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoFastFood" />
-        </activity>
-        <activity
-            android:name=".TamamKempap"
-            android:label="@string/title_activity_tamam_kempap"
-            android:parentActivityName=".HellinikoFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoFastFood" />
-        </activity>
+        
         <activity
             android:name=".ToXryso"
             android:label="@string/title_activity_to_xryso"
@@ -874,14 +719,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoFastFood" />
         </activity>
-        <activity
-            android:name=".JohnieHotDog"
-            android:label="@string/title_activity_johnie_hot_dog"
-            android:parentActivityName=".HellinikoFastFood" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoFastFood" />
-        </activity>
+     
         <activity
             android:name=".Frantzolino"
             android:label="@string/title_activity_frantzolino"
@@ -986,14 +824,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-        <activity
-            android:name=".AlphaBankArgyroupolis2"
-            android:label="@string/title_activity_alpha_bank_argyroupolis2"
-            android:parentActivityName=".ArgyroupolisBanks" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
-        </activity>
+        
         <activity
             android:name=".EurobankArgyroupolis"
             android:label="@string/title_activity_eurobank_argyroupolis"
@@ -1002,14 +833,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-        <activity
-            android:name=".EurobankArgyroupolis2"
-            android:label="@string/title_activity_eurobank_argyroupolis2"
-            android:parentActivityName=".ArgyroupolisBanks" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
-        </activity>
+       
         <activity
             android:name=".EthnikiTrapezaArgyroupolis"
             android:label="@string/title_activity_ethniki_trapeza_argyroupolis"
@@ -1026,14 +850,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-        <activity
-            android:name=".TrapezaPeiraiwsArgyroupolis2"
-            android:label="@string/title_activity_trapeza_peiraiws_argyroupolis2"
-            android:parentActivityName=".ArgyroupolisBanks" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBanks" />
-        </activity>
+        
         <activity
             android:name=".AlphaBankHelliniko"
             android:label="@string/title_activity_alpha_bank_helliniko"
@@ -1066,30 +883,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoBanks" />
         </activity>
-        <activity
-            android:name=".TrapezaPeiraiwsHelliniko2"
-            android:label="@string/title_activity_trapeza_peiraiws_helliniko2"
-            android:parentActivityName=".HellinikoBanks" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoBanks" />
-        </activity>
-        <activity
-            android:name=".TaxydromikoTamieuthrio"
-            android:label="@string/title_activity_taxydromiko_tamieuthrio"
-            android:parentActivityName=".HellinikoBanks" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoBanks" />
-        </activity>
-        <activity
-            android:name=".KatsioulhsAnastasios"
-            android:label="@string/title_activity_katsioulhs_anastasios"
-            android:parentActivityName=".HellinikoBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoBakery" />
-        </activity>
+      
+
         <activity
             android:name=".TaGiannena"
             android:label="@string/title_activity_ta_giannena"
@@ -1130,22 +925,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-        <activity
-            android:name=".KatsioulhsArgyroupolis"
-            android:label="@string/title_activity_katsioulhs_argyroupolis"
-            android:parentActivityName=".ArgyroupolisBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
-        </activity>
-        <activity
-            android:name=".SothriadouArgyroupolis"
-            android:label="@string/title_activity_sothriadou_argyroupolis"
-            android:parentActivityName=".ArgyroupolisBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
-        </activity>
+        
         <activity
             android:name=".ZymotoArgyroupolis"
             android:label="@string/title_activity_zymoto_argyroupolis"
@@ -1154,14 +934,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-        <activity
-            android:name=".GkrousthsArgyroupolis"
-            android:label="@string/title_activity_gkrousths_argyroupolis"
-            android:parentActivityName=".ArgyroupolisBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
-        </activity>
+  
         <activity
             android:name=".BenethArgyroupolis"
             android:label="@string/title_activity_beneth_argyroupolis"
@@ -1170,22 +943,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-        <activity
-            android:name=".MyrtakiArgyroupolis"
-            android:label="@string/title_activity_myrtaki_argyroupolis"
-            android:parentActivityName=".ArgyroupolisBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
-        </activity>
-        <activity
-            android:name=".MargaritisArgyroupolis"
-            android:label="@string/title_activity_margaritis_argyroupolis"
-            android:parentActivityName=".ArgyroupolisBakery" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisBakery" />
-        </activity>
+        
         <activity
             android:name=".RenierisArgyroupolis"
             android:label="@string/title_activity_renieris_argyroupolis"
@@ -1202,14 +960,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-        <activity
-            android:name=".NalpadisArgyroupolis"
-            android:label="@string/title_activity_nalpadis_argyroupolis"
-            android:parentActivityName=".ArgyroupolisAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
-        </activity>
+      
         <activity
             android:name=".PowerTeamArgyroupolis"
             android:label="@string/title_activity_power_team_argyroupolis"
@@ -1218,14 +969,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-        <activity
-            android:name=".MylonasArgyroupolis"
-            android:label="@string/title_activity_mylonas_argyroupolis"
-            android:parentActivityName=".ArgyroupolisAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
-        </activity>
+     
         <activity
             android:name=".JeepServiceArgyroupolis"
             android:label="@string/title_activity_jeep_service_argyroupolis"
@@ -1242,30 +986,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-        <activity
-            android:name=".KastritsisServiceArgyroupolis"
-            android:label="@string/title_activity_kastritsis_service_argyroupolis"
-            android:parentActivityName=".ArgyroupolisAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".LiotsosServiceArgyroupolis"
-            android:label="@string/title_activity_liotsos_service_argyroupolis"
-            android:parentActivityName=".ArgyroupolisAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".VarellasServiceArgyroupolis"
-            android:label="@string/title_activity_varellas_service_argyroupolis"
-            android:parentActivityName=".ArgyroupolisAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
-        </activity>
+      
         <activity
             android:name=".KMServiceArgyroupolis"
             android:label="@string/title_activity_kmservice_argyroupolis"
@@ -1282,14 +1003,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-        <activity
-            android:name=".ServiceTechHelliniko"
-            android:label="@string/title_activity_service_tech_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
+       
         <activity
             android:name=".RomanosPowerHelliniko"
             android:label="@string/title_activity_romanos_power_helliniko"
@@ -1298,54 +1012,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
         </activity>
-        <activity
-            android:name=".ServiziItalianiHelliniko"
-            android:label="@string/title_activity_servizi_italiani_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".NtinouHelliniko"
-            android:label="@string/title_activity_ntinou_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".LampropoulosHelliniko"
-            android:label="@string/title_activity_lampropoulos_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".PalaiopanhsHelliniko"
-            android:label="@string/title_activity_palaiopanhs_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".KisandrakisHelliniko"
-            android:label="@string/title_activity_kisandrakis_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".KarakyrgiakosHelliniko"
-            android:label="@string/title_activity_karakyrgiakos_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
+    
         <activity
             android:name=".DakarServiceHelliniko"
             android:label="@string/title_activity_dakar_service_helliniko"
@@ -1370,22 +1037,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
         </activity>
-        <activity
-            android:name=".SyrigosHelliniko"
-            android:label="@string/title_activity_syrigos_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
-        <activity
-            android:name=".MauropoulosHelliniko"
-            android:label="@string/title_activity_mauropoulos_helliniko"
-            android:parentActivityName=".HellinikoAutoRepairs" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
-        </activity>
+
         <activity
             android:name=".AthiniotouArgyroupolis"
             android:label="@string/title_activity_athiniotou_argyroupolis"
@@ -1410,14 +1062,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
         </activity>
-        <activity
-            android:name=".GeorgiadouArgyroupolis"
-            android:label="@string/title_activity_georgiadou_argyroupolis"
-            android:parentActivityName=".ArgyroupolisPharmacy" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
-        </activity>
+  
         <activity
             android:name=".KalepesiArgyroupolis"
             android:label="@string/title_activity_kalepesi_argyroupolis"
@@ -1442,14 +1087,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
         </activity>
-        <activity
-            android:name=".AsikisHelliniko"
-            android:label="@string/title_activity_asikis_helliniko"
-            android:parentActivityName=".HellinikoPharmacy" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoPharmacy" />
-        </activity>
+      
         <activity
             android:name=".DouzeniHelliniko"
             android:label="@string/title_activity_douzeni_helliniko"
@@ -1466,14 +1104,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoPharmacy" />
         </activity>
-        <activity
-            android:name=".KimioniHelliniko"
-            android:label="@string/title_activity_kimioni_helliniko"
-            android:parentActivityName=".HellinikoPharmacy" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.HellinikoPharmacy" />
-        </activity>
+        
         <activity
             android:name=".SpiliotopoulouHelliniko"
             android:label="@string/title_activity_spiliotopoulou_helliniko"
@@ -1969,6 +1600,98 @@
         <activity
             android:name=".MapSofoulis"
             android:label="@string/title_activity_map_sofoulis" >
+        </activity>
+        <activity
+            android:name=".MapCineAloma"
+            android:label="@string/title_activity_map_cine_aloma" >
+        </activity>
+        <activity
+            android:name=".MapCineArgyroupolis"
+            android:label="@string/title_activity_map_cine_argyroupolis" >
+        </activity>
+        <activity
+            android:name=".MapCineSofia"
+            android:label="@string/title_activity_map_cine_sofia" >
+        </activity>
+        <activity
+            android:name=".MapVideoBlue"
+            android:label="@string/title_activity_map_video_blue" >
+        </activity>
+        <activity
+            android:name=".MapSousami"
+            android:label="@string/title_activity_map_sousami" >
+        </activity>
+        <activity
+            android:name=".MapElia"
+            android:label="@string/title_activity_map_elia" >
+        </activity>
+        <activity
+            android:name=".MapLaPasteria"
+            android:label="@string/title_activity_map_la_pasteria" >
+        </activity>
+        <activity
+            android:name=".MapTreisToLadi"
+            android:label="@string/title_activity_map_treis_to_ladi" >
+        </activity>
+        <activity
+            android:name=".MapMpiftekiSofias"
+            android:label="@string/title_activity_map_mpifteki_sofias" >
+        </activity>
+        <activity
+            android:name=".MapKouzinaPlateias"
+            android:label="@string/title_activity_map_kouzina_plateias" >
+        </activity>
+        <activity
+            android:name=".MapTaLitharitsia"
+            android:label="@string/title_activity_map_ta_litharitsia" >
+        </activity>
+        <activity
+            android:name=".MapKrasadiko"
+            android:label="@string/title_activity_map_krasadiko" >
+        </activity>
+        <activity
+            android:name=".MapOdosAristotelous"
+            android:label="@string/title_activity_map_odos_aristotelous" >
+        </activity>
+        <activity
+            android:name=".MapAutoService"
+            android:label="@string/title_activity_map_auto_service" >
+        </activity>
+        <activity
+            android:name=".MapPowerTeam"
+            android:label="@string/title_activity_map_power_team" >
+        </activity>
+        <activity
+            android:name=".MapJeepService"
+            android:label="@string/title_activity_map_jeep_service" >
+        </activity>
+        <activity
+            android:name=".MapCarTechnology"
+            android:label="@string/title_activity_map_car_technology" >
+        </activity>
+        <activity
+            android:name=".MapKMService"
+            android:label="@string/title_activity_map_kmservice" >
+        </activity>
+        <activity
+            android:name=".MapProSportRacing"
+            android:label="@string/title_activity_map_pro_sport_racing" >
+        </activity>
+        <activity
+            android:name=".MapRomanosPower"
+            android:label="@string/title_activity_map_romanos_power" >
+        </activity>
+        <activity
+            android:name=".MapDakarService"
+            android:label="@string/title_activity_map_dakar_service" >
+        </activity>
+        <activity
+            android:name=".MapGSMService"
+            android:label="@string/title_activity_map_gsmservice" >
+        </activity>
+        <activity
+            android:name=".MapRacingService"
+            android:label="@string/title_activity_map_racing_service" >
         </activity>
     </application>
 
