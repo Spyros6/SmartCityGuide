@@ -29,12 +29,12 @@ public class MainActivity extends ActionBarActivity {
     }
     });
      
-     Button btnDoctors = (Button)findViewById(R.id.btnDoctors);
-     btnDoctors.setOnClickListener(new OnClickListener() {
+     Button btnHair = (Button)findViewById(R.id.btnHair);
+     btnHair.setOnClickListener(new OnClickListener() {
 
     @Override
     public void onClick(View v) {
-    Intent intent = new Intent(MainActivity.this, Doctors.class);
+    Intent intent = new Intent(MainActivity.this, HairCare.class);
     startActivity(intent);
     }
     });

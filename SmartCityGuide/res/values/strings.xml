@@ -315,5 +315,10 @@
     <string name="title_activity_map_dakar_service">Map DakarService</string>
     <string name="title_activity_map_gsmservice">Map GSMService</string>
     <string name="title_activity_map_racing_service">Map RacingService</string>
+    <string name="title_activity_mplampla">Mplampla</string>
+    <string name="title_activity_hello_world">HelloWorld</string>
+    <string name="title_activity_hair_care">Hair Care</string>
+    <string name="title_activity_argyroupolis_hair_care">Argyroupoli Hair Care</string>
+    <string name="title_activity_helliniko_hair_care">Helliniko Hair Care</string>
 
 </resources>

@@ -474,7 +474,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-      
         <activity
             android:name=".Elia"
             android:label="@string/title_activity_elia"
@@ -483,7 +482,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-       
         <activity
             android:name=".LaPasteria"
             android:label="@string/title_activity_la_pasteria"
@@ -500,7 +498,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-       
         <activity
             android:name=".ToMpiftekiThsSofias"
             android:label="@string/title_activity_to_mpifteki_ths_sofias"
@@ -517,7 +514,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisRestaurant" />
         </activity>
-     
         <activity
             android:name=".ICafeBar"
             android:label="@string/title_activity_icafe_bar"
@@ -566,7 +562,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisCafe" />
         </activity>
-       
         <activity
             android:name=".TerminalCafe"
             android:label="@string/title_activity_terminal_cafe"
@@ -599,7 +594,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoCafe" />
         </activity>
-        
         <activity
             android:name=".ReplayCafeBistro"
             android:label="@string/title_activity_replay_cafe_bistro"
@@ -608,7 +602,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoCafe" />
         </activity>
-       
         <activity
             android:name=".SisCafe"
             android:label="@string/title_activity_sis_cafe"
@@ -649,7 +642,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-        
         <activity
             android:name=".LefterisArgyroupolis"
             android:label="@string/title_activity_lefteris_argyroupolis"
@@ -658,12 +650,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-       
         <activity
             android:name=".PitesTouNtenh"
             android:label="@string/title_activity_pites_tou_ntenh" >
         </activity>
-       
         <activity
             android:name=".GiaSouvlaki"
             android:label="@string/title_activity_gia_souvlaki"
@@ -688,12 +678,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisFastFood" />
         </activity>
-      
         <activity
             android:name=".PitesThsGewrgias"
             android:label="@string/title_activity_pites_ths_gewrgias" >
         </activity>
-       
         <activity
             android:name=".ToSouvlatzidiko"
             android:label="@string/title_activity_to_souvlatzidiko"
@@ -710,7 +698,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoFastFood" />
         </activity>
-        
         <activity
             android:name=".ToXryso"
             android:label="@string/title_activity_to_xryso"
@@ -719,7 +706,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoFastFood" />
         </activity>
-     
         <activity
             android:name=".Frantzolino"
             android:label="@string/title_activity_frantzolino"
@@ -824,7 +810,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-        
         <activity
             android:name=".EurobankArgyroupolis"
             android:label="@string/title_activity_eurobank_argyroupolis"
@@ -833,7 +818,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-       
         <activity
             android:name=".EthnikiTrapezaArgyroupolis"
             android:label="@string/title_activity_ethniki_trapeza_argyroupolis"
@@ -850,7 +834,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBanks" />
         </activity>
-        
         <activity
             android:name=".AlphaBankHelliniko"
             android:label="@string/title_activity_alpha_bank_helliniko"
@@ -883,8 +866,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoBanks" />
         </activity>
-      
-
         <activity
             android:name=".TaGiannena"
             android:label="@string/title_activity_ta_giannena"
@@ -925,7 +906,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-        
         <activity
             android:name=".ZymotoArgyroupolis"
             android:label="@string/title_activity_zymoto_argyroupolis"
@@ -934,7 +914,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-  
         <activity
             android:name=".BenethArgyroupolis"
             android:label="@string/title_activity_beneth_argyroupolis"
@@ -943,7 +922,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisBakery" />
         </activity>
-        
         <activity
             android:name=".RenierisArgyroupolis"
             android:label="@string/title_activity_renieris_argyroupolis"
@@ -960,7 +938,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-      
         <activity
             android:name=".PowerTeamArgyroupolis"
             android:label="@string/title_activity_power_team_argyroupolis"
@@ -969,7 +946,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-     
         <activity
             android:name=".JeepServiceArgyroupolis"
             android:label="@string/title_activity_jeep_service_argyroupolis"
@@ -986,7 +962,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-      
         <activity
             android:name=".KMServiceArgyroupolis"
             android:label="@string/title_activity_kmservice_argyroupolis"
@@ -1003,7 +978,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisAutoRepairs" />
         </activity>
-       
         <activity
             android:name=".RomanosPowerHelliniko"
             android:label="@string/title_activity_romanos_power_helliniko"
@@ -1012,7 +986,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
         </activity>
-    
         <activity
             android:name=".DakarServiceHelliniko"
             android:label="@string/title_activity_dakar_service_helliniko"
@@ -1037,7 +1010,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoAutoRepairs" />
         </activity>
-
         <activity
             android:name=".AthiniotouArgyroupolis"
             android:label="@string/title_activity_athiniotou_argyroupolis"
@@ -1062,7 +1034,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
         </activity>
-  
         <activity
             android:name=".KalepesiArgyroupolis"
             android:label="@string/title_activity_kalepesi_argyroupolis"
@@ -1087,7 +1058,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.ArgyroupolisPharmacy" />
         </activity>
-      
         <activity
             android:name=".DouzeniHelliniko"
             android:label="@string/title_activity_douzeni_helliniko"
@@ -1104,7 +1074,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.HellinikoPharmacy" />
         </activity>
-        
         <activity
             android:name=".SpiliotopoulouHelliniko"
             android:label="@string/title_activity_spiliotopoulou_helliniko"
@@ -1692,6 +1661,26 @@
         <activity
             android:name=".MapRacingService"
             android:label="@string/title_activity_map_racing_service" >
+        </activity>
+        <activity
+            android:name=".Mplampla"
+            android:label="@string/title_activity_mplampla" >
+        </activity>
+        <activity
+            android:name=".HelloWorld"
+            android:label="@string/title_activity_hello_world" >
+        </activity>
+        <activity
+            android:name=".HairCare"
+            android:label="@string/title_activity_hair_care" >
+        </activity>
+        <activity
+            android:name=".ArgyroupolisHairCare"
+            android:label="@string/title_activity_argyroupolis_hair_care" >
+        </activity>
+        <activity
+            android:name=".HellinikoHairCare"
+            android:label="@string/title_activity_helliniko_hair_care" >
         </activity>
     </application>
 
