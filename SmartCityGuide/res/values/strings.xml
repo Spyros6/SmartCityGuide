@@ -320,5 +320,15 @@
     <string name="title_activity_hair_care">Hair Care</string>
     <string name="title_activity_argyroupolis_hair_care">Argyroupoli Hair Care</string>
     <string name="title_activity_helliniko_hair_care">Helliniko Hair Care</string>
+    <string name="title_activity_beautys_heaven">Beauty\'s Heaven</string>
+    <string name="title_activity_map_beautys_heaven">Map Beauty\'s Heaven</string>
+    <string name="title_activity_hair_workshop">Hair Workshop</string>
+    <string name="title_activity_map_hair_workshop">Map Hair Workshop</string>
+    <string name="title_activity_hair_design_studio">Hair Design Studio</string>
+    <string name="title_activity_map_hair_design_studio">Map Hair Design Studio</string>
+    <string name="title_activity_beauty_planet">Beauty Planet</string>
+    <string name="title_activity_map_beauty_planet">Map Beauty Planet</string>
+    <string name="title_activity_hairmania_group">Hairmania Biky Group</string>
+    <string name="title_activity_map_hairmania_group">Map Hairmania Biky Group</string>
 
 </resources>

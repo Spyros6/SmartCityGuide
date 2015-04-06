@@ -162,22 +162,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.Restaurant" />
         </activity>
-        <activity
-            android:name=".ArgyroupolisDoctors"
-            android:label="@string/title_activity_argyroupolis_doctors"
-            android:parentActivityName=".Doctors" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.Doctors" />
-        </activity>
-        <activity
-            android:name=".HellinikoDoctors"
-            android:label="@string/title_activity_helliniko_doctors"
-            android:parentActivityName=".Doctors" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.smartcityguide.Doctors" />
-        </activity>
+       
         <activity
             android:name=".ArgyroupolisCafe"
             android:label="@string/title_activity_argyroupolis_cafe"
@@ -1681,6 +1666,46 @@
         <activity
             android:name=".HellinikoHairCare"
             android:label="@string/title_activity_helliniko_hair_care" >
+        </activity>
+        <activity
+            android:name=".BeautysHeaven"
+            android:label="@string/title_activity_beautys_heaven" >
+        </activity>
+        <activity
+            android:name=".MapBeautysHeaven"
+            android:label="@string/title_activity_map_beautys_heaven" >
+        </activity>
+        <activity
+            android:name=".HairWorkshop"
+            android:label="@string/title_activity_hair_workshop" >
+        </activity>
+        <activity
+            android:name=".MapHairWorkshop"
+            android:label="@string/title_activity_map_hair_workshop" >
+        </activity>
+        <activity
+            android:name=".HairDesignStudio"
+            android:label="@string/title_activity_hair_design_studio" >
+        </activity>
+        <activity
+            android:name=".MapHairDesignStudio"
+            android:label="@string/title_activity_map_hair_design_studio" >
+        </activity>
+        <activity
+            android:name=".BeautyPlanet"
+            android:label="@string/title_activity_beauty_planet" >
+        </activity>
+        <activity
+            android:name=".MapBeautyPlanet"
+            android:label="@string/title_activity_map_beauty_planet" >
+        </activity>
+        <activity
+            android:name=".HairmaniaGroup"
+            android:label="@string/title_activity_hairmania_group" >
+        </activity>
+        <activity
+            android:name=".MapHairmaniaGroup"
+            android:label="@string/title_activity_map_hairmania_group" >
         </activity>
     </application>
 
