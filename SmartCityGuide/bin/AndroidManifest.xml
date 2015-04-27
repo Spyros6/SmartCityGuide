@@ -162,7 +162,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.smartcityguide.Restaurant" />
         </activity>
-       
         <activity
             android:name=".ArgyroupolisCafe"
             android:label="@string/title_activity_argyroupolis_cafe"
@@ -1706,6 +1705,42 @@
         <activity
             android:name=".MapHairmaniaGroup"
             android:label="@string/title_activity_map_hairmania_group" >
+        </activity>
+        <activity
+            android:name=".HairLab"
+            android:label="@string/title_activity_hair_lab" >
+        </activity>
+        <activity
+            android:name=".MapHairLab"
+            android:label="@string/title_activity_map_hair_lab" >
+        </activity>
+        <activity
+            android:name=".CAHairDesign"
+            android:label="@string/title_activity_cahair_design" >
+        </activity>
+        <activity
+            android:name=".MapCAHairDesign"
+            android:label="@string/title_activity_map_cahair_design" >
+        </activity>
+        <activity
+            android:name=".Joanna"
+            android:label="@string/title_activity_joanna" >
+        </activity>
+        <activity
+            android:name=".Fani"
+            android:label="@string/title_activity_fani" >
+        </activity>
+        <activity
+            android:name=".MapFani"
+            android:label="@string/title_activity_map_fani" >
+        </activity>
+        <activity
+            android:name=".DionysisCoiffures"
+            android:label="@string/title_activity_dionysis_coiffures" >
+        </activity>
+        <activity
+            android:name=".MapDionysisCoiffures"
+            android:label="@string/title_activity_map_dionysis_coiffures" >
         </activity>
     </application>
 

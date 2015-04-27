@@ -330,5 +330,14 @@
     <string name="title_activity_map_beauty_planet">Map Beauty Planet</string>
     <string name="title_activity_hairmania_group">Hairmania Biky Group</string>
     <string name="title_activity_map_hairmania_group">Map Hairmania Biky Group</string>
+    <string name="title_activity_hair_lab">Hair Lab</string>
+    <string name="title_activity_map_hair_lab">Map Hair Lab</string>
+    <string name="title_activity_cahair_design">C &amp; A Hair Design</string>
+    <string name="title_activity_map_cahair_design">Map C&amp;A Hair Design</string>
+    <string name="title_activity_joanna">Joanna\'s</string>
+    <string name="title_activity_fani">Fani</string>
+    <string name="title_activity_map_fani">Map Fani</string>
+    <string name="title_activity_dionysis_coiffures">Dionysis Coiffures</string>
+    <string name="title_activity_map_dionysis_coiffures">Map Dionysis Coiffures</string>
 
 </resources>

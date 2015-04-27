@@ -14,8 +14,8 @@ public class HellinikoHairCare extends ListActivity {
 
 	String arr[] = {"Hair Lab",
 			"C & A Hair Design" ,
-			"Joanna's" ,
-			"Beauty Fun Club",};
+			"Fani" ,
+			"Dionysis Coiffures",};
 	ListView l;
 	
 	@Override
@@ -33,26 +33,23 @@ public class HellinikoHairCare extends ListActivity {
 	     super.onListItemClick(l, v, position, id);
 
 	     if (position == 0) {
-	    		Intent intent = new Intent(this, BeautysHeaven.class);
+	    		Intent intent = new Intent(this, HairLab.class);
 	    		startActivity(intent);
 	    		}
 	     if (position == 1) {
-	    		Intent intent = new Intent(this, HairWorkshop.class);
+	    		Intent intent = new Intent(this, CAHairDesign.class);
 	    		startActivity(intent);
 	    		}
 	     if (position == 2) {
-	    		Intent intent = new Intent(this, HairDesignStudio.class);
+	    		Intent intent = new Intent(this, Fani.class);
 	    		startActivity(intent);
 	    		}
 	 
 	     if (position == 3) {
-	    		Intent intent = new Intent(this, BeautyPlanet.class);
+	    		Intent intent = new Intent(this, DionysisCoiffures.class);
 	    		startActivity(intent);
 	    		}
-	     if (position == 4) {
-	    		Intent intent = new Intent(this, HairmaniaGroup.class);
-	    		startActivity(intent);
-	    		}
+	
 	   
 	}
 	
