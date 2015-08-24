@@ -61,7 +61,7 @@
           android:layout_height="wrap_content"
           android:layout_alignTop="@+id/imageView3"
           android:layout_toRightOf="@+id/imageView1"
-          android:text="www.hugcafebar.com"
+          android:text="Enter to the Website"
           android:visibility="visible" />
 
       <ImageView
